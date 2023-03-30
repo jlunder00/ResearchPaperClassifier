@@ -1,0 +1,6 @@
+torch
+torchvision
+torchaudio
+wandb
+onnx
+onnxruntime

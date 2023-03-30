@@ -1,76 +1,181 @@
+import os
+import random
+
+import numpy as np
 import torch
-import torch.optim as optim
-import torch.nn.functional as F
 import torch.nn as nn
-from torchvision import datasets, transforms
+import torchvision
+import torchvision.transforms as transforms
+from tqdm.auto import tqdm
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+import wandb
 
-def train(config=None):
-    # Initialize a new wandb run
-    with wandb.init(config=config):
-        # If called by wandb.agent, as below,
-        # this config will be set by Sweep Controller
-        config = wandb.config
+def get_device():
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    return device
 
-        loader = build_dataset(config.batch_size)
-        network = build_network(config.fc_layer_size, config.dropout)
-        optimizer = build_optimizer(network, config.optimizer, config.learning_rate)
+def get_wandb_configuration():
+    '''
+    Create the configuration for the network's hyperparameters
+    '''
+    config = dict(
+        epochs=5,
+        classes=10,
+        kernels=[16, 32],
+        batch_size=128,
+        learning_rate=0.005,
+        dataset="MNIST",
+        architecture="CNN",
+        optimizer="Adam")
+    return config
 
-        for epoch in range(config.epochs):
-            avg_loss = train_epoch(network, loader, optimizer)
-            wandb.log({"loss": avg_loss, "epoch": epoch})   
- 
-def build_dataset(batch_size):
-   
-    transform = transforms.Compose(
-        [transforms.ToTensor(),
-         transforms.Normalize((0.1307,), (0.3081,))])
-    # download MNIST training dataset
-    dataset = datasets.MNIST(".", train=True, download=True,
-                             transform=transform)
+def model_pipeline(config_dict, device):
+
+    # tell wandb to get started
+    with wandb.init(project="pytorch-demo", config=config_dict):
+      # access all HPs through wandb.config, so logging matches execution!
+      config = wandb.config
+
+      # make the model, data, and optimization problem
+      model, train_loader, test_loader, criterion, optimizer = make(config, device)
+      print(model)
+
+      # and use them to train the model
+      train(model, train_loader, criterion, optimizer, config, device)
+
+      # and test its final performance
+      test(model, test_loader, device)
+
+    return model
+
+def make(config, device):
+    # Make the data
+    train, test = get_data(train=True), get_data(train=False)
+    train_loader = make_loader(train, batch_size=config.batch_size)
+    test_loader = make_loader(test, batch_size=config.batch_size)
+
+    # Make the model
+    model = ConvNet(config.kernels, config.classes).to(device)
+
+    # Make the loss and optimizer
+    criterion = nn.CrossEntropyLoss()
+
+    if config.optimizer.casefold() == "sgd":
+        optimizer = torch.optim.SGD(model.parameters(), lr=config.learning_rate)
+    else:
+        optimizer = torch.optim.Adam(model.parameters(), lr=config.learning_rate)
+    
+    return model, train_loader, test_loader, criterion, optimizer
+
+def get_data(slice=5, train=True):
+    full_dataset = torchvision.datasets.MNIST(root=".",
+                                              train=train, 
+                                              transform=transforms.ToTensor(),
+                                              download=True)
+    #  equiv to slicing with [::slice] 
     sub_dataset = torch.utils.data.Subset(
-        dataset, indices=range(0, len(dataset), 5))
-    loader = torch.utils.data.DataLoader(sub_dataset, batch_size=batch_size)
+      full_dataset, indices=range(0, len(full_dataset), slice))
+    
+    return sub_dataset
 
+
+def make_loader(dataset, batch_size):
+    loader = torch.utils.data.DataLoader(dataset=dataset,
+                                         batch_size=batch_size, 
+                                         shuffle=True,
+                                         pin_memory=True, num_workers=2)
     return loader
 
-
-def build_network(fc_layer_size, dropout):
-    network = nn.Sequential(  # fully-connected, single hidden layer
-        nn.Flatten(),
-        nn.Linear(784, fc_layer_size), nn.ReLU(),
-        nn.Dropout(dropout),
-        nn.Linear(fc_layer_size, 10),
-        nn.LogSoftmax(dim=1))
-
-    return network.to(device)
+#The model
+class ConvNet(nn.Module):
+    def __init__(self, kernels, classes=10):
+        super(ConvNet, self).__init__()
         
+        self.layer1 = nn.Sequential(
+            nn.Conv2d(1, kernels[0], kernel_size=5, stride=1, padding=2),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2))
+        self.layer2 = nn.Sequential(
+            nn.Conv2d(16, kernels[1], kernel_size=5, stride=1, padding=2),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2))
+        self.fc = nn.Linear(7 * 7 * kernels[-1], classes)
+        
+    def forward(self, x):
+        out = self.layer1(x)
+        out = self.layer2(out)
+        out = out.reshape(out.size(0), -1)
+        out = self.fc(out)
+        return out
 
-def build_optimizer(network, optimizer, learning_rate):
-    if optimizer == "sgd":
-        optimizer = optim.SGD(network.parameters(),
-                              lr=learning_rate, momentum=0.9)
-    elif optimizer == "adam":
-        optimizer = optim.Adam(network.parameters(),
-                               lr=learning_rate)
-    return optimizer
+def train(model, loader, criterion, optimizer, config, device):
+    # Tell wandb to watch what the model gets up to: gradients, weights, and more!
+    wandb.watch(model, criterion, log="all", log_freq=10)
+
+    # Run training and track with wandb
+    total_batches = len(loader) * config.epochs
+    example_ct = 0  # number of examples seen
+    batch_ct = 0
+    for epoch in tqdm(range(config.epochs)):
+        for _, (images, labels) in enumerate(loader):
+
+            loss = train_batch(images, labels, model, optimizer, criterion, device)
+            example_ct +=  len(images)
+            batch_ct += 1
+
+            # Report metrics every 25th batch
+            if ((batch_ct + 1) % 25) == 0:
+                train_log(loss, example_ct, epoch)
 
 
-def train_epoch(network, loader, optimizer):
-    cumu_loss = 0
-    for _, (data, target) in enumerate(loader):
-        data, target = data.to(device), target.to(device)
-        optimizer.zero_grad()
+def train_batch(images, labels, model, optimizer, criterion, device):
+    images, labels = images.to(device), labels.to(device)
+    
+    # Forward pass ➡
+    outputs = model(images)
+    loss = criterion(outputs, labels)
+    
+    # Backward pass ⬅
+    optimizer.zero_grad()
+    loss.backward()
 
-        # ➡ Forward pass
-        loss = F.nll_loss(network(data), target)
-        cumu_loss += loss.item()
+    # Step with optimizer
+    optimizer.step()
 
-        # ⬅ Backward pass + weight update
-        loss.backward()
-        optimizer.step()
+    return loss
 
-        wandb.log({"batch loss": loss.item()})
+def train_log(loss, example_ct, epoch):
+    # Where the magic happens
+    wandb.log({"epoch": epoch, "loss": loss}, step=example_ct)
+    print(f"Loss after {str(example_ct).zfill(5)} examples: {loss:.3f}")
 
-    return cumu_loss / len(loader)
+
+def test(model, test_loader, device):
+    model.eval()
+
+    # Run the model on some test examples
+    with torch.no_grad():
+        correct, total = 0, 0
+        for images, labels in test_loader:
+            images, labels = images.to(device), labels.to(device)
+            outputs = model(images)
+            _, predicted = torch.max(outputs.data, 1)
+            total += labels.size(0)
+            correct += (predicted == labels).sum().item()
+
+        print(f"Accuracy of the model on the {total} " +
+              f"test images: {correct / total:%}")
+        
+        wandb.log({"test_accuracy": correct / total})
+
+    # Save the model in the exchangeable ONNX format
+    torch.onnx.export(model, images, "model.onnx")
+    wandb.save("model.onnx")
+
+
+if __name__ == '__main__':
+    config = get_wandb_configuration()
+    # Build, train and analyze the model with the pipeline
+    device = get_device()
+    model = model_pipeline(config, device)
+
