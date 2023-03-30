@@ -1,11 +1,9 @@
-program: demo.py
-method: bayes
+program:
+method:
 metric:
-  name: loss
-  goal: minimize
-parameters:
+  name: 
+  goal: 
+parameters: 
   learning_rate:
-    min: 0.0001
-    max: 0.1
   optimizer:
-    values: ["adam", "sgd"]
+  batch_size:

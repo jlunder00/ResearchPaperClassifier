@@ -18,34 +18,23 @@ def get_wandb_configuration():
     '''
     Create the configuration for the network's hyperparameters
     '''
+    #TODO: Create a hyperparameter configuration for a single run
     config = dict(
-        epochs=5,
-        classes=10,
-        kernels=[16, 32],
-        batch_size=128,
-        learning_rate=0.005,
-        dataset="MNIST",
-        architecture="CNN",
-        optimizer="Adam")
+
+            )
     return config
 
 def model_pipeline(config_dict, device):
 
-    # tell wandb to get started
-    with wandb.init(project="pytorch-demo", config=config_dict):
-      # access all HPs through wandb.config, so logging matches execution!
-      config = wandb.config
+    # TODO: tell wandb to get started
+      # TODO: access all HPs through wandb.config
 
-      # make the model, data, and optimization problem
-      model, train_loader, test_loader, criterion, optimizer = make(config, device)
-      print(model)
+      # TODO: make the model, dataloader, optimizer, etc
 
-      # and use them to train the model
-      train(model, train_loader, criterion, optimizer, config, device)
+      # TODO: use them to train the model
 
-      # and test its final performance
-      test(model, test_loader, device)
-
+      # TODO: and test its final performance, saving it afterwards
+    
     return model
 
 def make(config, device):
@@ -109,8 +98,7 @@ class ConvNet(nn.Module):
         return out
 
 def train(model, loader, criterion, optimizer, config, device):
-    # Tell wandb to watch what the model gets up to: gradients, weights, and more!
-    wandb.watch(model, criterion, log="all", log_freq=10)
+    # TODO: Tell wandb to watch what the model gets up to: gradients, weights, etc.
 
     # Run training and track with wandb
     total_batches = len(loader) * config.epochs
@@ -146,9 +134,8 @@ def train_batch(images, labels, model, optimizer, criterion, device):
 
 def train_log(loss, example_ct, epoch):
     # Where the magic happens
-    wandb.log({"epoch": epoch, "loss": loss}, step=example_ct)
-    print(f"Loss after {str(example_ct).zfill(5)} examples: {loss:.3f}")
-
+    #TODO: log our metrics: want to see the current epoch and loss on a chart against the number of examples
+    pass
 
 def test(model, test_loader, device):
     model.eval()
@@ -170,7 +157,8 @@ def test(model, test_loader, device):
 
     # Save the model in the exchangeable ONNX format
     torch.onnx.export(model, images, "model.onnx")
-    wandb.save("model.onnx")
+
+    #TODO: save the model with wandb
 
 
 if __name__ == '__main__':
