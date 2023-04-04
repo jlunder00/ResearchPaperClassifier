@@ -1,0 +1,6637 @@
+[
+    {
+        "name": "1088 Email Press",
+        "url": "http://1088.email/",
+        "is_publisher": true
+    },
+    {
+        "name": "2425 Publishers",
+        "url": "http://2425publishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "The 5th Publisher",
+        "url": "http://www.5thpublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ABC Journals",
+        "url": "http://www.abcjournals.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "A M Publishers",
+        "url": "http://ampublisher.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Abhinav",
+        "url": "http://www.abhinavjournal.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academe Research Journals",
+        "url": "http://www.academeresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academia Publishing",
+        "url": "http://academiapublishing.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Academia Research",
+        "url": "http://academiaresearch.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academia Scholarly Journals",
+        "url": "http://www.academiascholarlyjournal.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic and Business Research Institute",
+        "url": "http://www.aabri.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic and Scientific Publishing",
+        "url": "http://acascipub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Direct Publishing House",
+        "url": "http://ph.academicdirect.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Journals",
+        "url": "http://www.academicjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Journals and Research ACJAR",
+        "url": "http://www.acjar.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Journals Online",
+        "url": "http://www.academicjournalsonline.co.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Journals, Inc.",
+        "url": "http://www.academicjournalsinc.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Knowledge and Research Publishing",
+        "url": "http://www.akrpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Organization for Advancement of Strategic and International Studies",
+        "url": "http://www.academicoasis.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Publications, Ltd.",
+        "url": "http://www.acadpubl.eu/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Research in Science, Engineering, Art and Management",
+        "url": "http://www.arseam.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Research Journals",
+        "url": "http://www.academicresearchjournals.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Research Publishers",
+        "url": "http://acrpub.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Research Publishing Agency",
+        "url": "http://www.arpapress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Research Publishing Group",
+        "url": "http://arpgweb.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Research Publishing House",
+        "url": "http://www.acadrp.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Scholars Publishing House",
+        "url": "http://academic-publishing-house.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Sciences",
+        "url": "http://www.ijaponline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Star Publishing Company",
+        "url": "http://www.academicstar.us/index.asp",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Web Publishers",
+        "url": "http://academicwebpublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic World Education & Research Center",
+        "url": "http://www.awer-center.org/journals.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "AcademicDirect Publishing House",
+        "url": "http://ph.academicdirect.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academicians\u2019 Research Center",
+        "url": "http://www.arcjournals.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Academics World",
+        "url": "http://academicsworld.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academy for Environment and Life Sciences",
+        "url": "http://aelsindia.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academy Journals",
+        "url": "http://www.academyjournals.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academy of Business & Retail Management",
+        "url": "http://www.abrmr.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academy of Business & Scientific Research",
+        "url": "http://www.absronline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academy of IRMBR International Research in Management and Business Realities",
+        "url": "http://www.academyirmbr.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academy of Knowledge Process",
+        "url": "http://akpinsight.webs.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academy of Science and Engineering",
+        "url": "http://www.scienceengineeringacademy.org/asesite/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academy of Science and Social Science",
+        "url": "http://www.asss-web.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academy of Scientific and Applied Research",
+        "url": "http://asaarjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academy Publish",
+        "url": "http://www.academypublish.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Access International Journals",
+        "url": "http://www.accessinterjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Access Journals",
+        "url": "http://www.accessjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Access Publishers",
+        "url": "http://www.accesspublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "ACT Publishing",
+        "url": "http://www.ghrnet.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Acta Scientifica",
+        "url": "http://actascientifica.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "AD Publication",
+        "url": "http://www.adpublication.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "AD Publications",
+        "url": "http://adpublications.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ada Lovelace Publications",
+        "url": "http://www.ada-lovelace.co.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Advance Educational Institute & Research Centre",
+        "url": "http://aeirc-edu.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Advance Journals",
+        "url": "http://advancejournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Advanced Institute of Convergence Information Technology",
+        "url": "http://www.aicit.org/publications.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Advanced Journals",
+        "url": "http://advancedjournals.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Advanced Research Journals",
+        "url": "http://www.advancedresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Advanced Research Publications",
+        "url": "http://adrpublications.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Advanced Scholars Journals",
+        "url": "http://advancedscholarsjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Advanced Science and Engineering Technology Institute",
+        "url": "http://www.asetrc.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Advanced Science Research Journals",
+        "url": "http://advancedscienceresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Advanced Technology & Science",
+        "url": "http://atscience.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Advancement and Development in Technology International",
+        "url": "http://aditisci.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Advancements in Science",
+        "url": "http://www.ajournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Adyan Academic Press",
+        "url": "http://www.adyanacademicpress.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "AENSI",
+        "url": "http://www.aensiweb.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "African Research Review",
+        "url": "http://afrrevjo.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "AgiAl Publishing House",
+        "url": "http://www.agialpress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Agropub",
+        "url": "http://agropub.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "AINSTIN Knowledge Hub",
+        "url": "http://ainstin.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "AIRCC Publishing Corporation",
+        "url": "http://airccse.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Aizeon Publishers",
+        "url": "http://www.aizeonpublishers.net/aboutus.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Akademik Plus Publication",
+        "url": "",
+        "is_publisher": true
+    },
+    {
+        "name": "Albert Science International Organization",
+        "url": "http://albertscience.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Allied Academies",
+        "url": "http://www.alliedacademies.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Allied Journals",
+        "url": "http://www.alliedjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ambit Journals",
+        "url": "http://ambitjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "AME Publishing Company",
+        "url": "http://www.amepc.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "American Academic & Scholarly Research Center",
+        "url": "http://aasrc.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "American Association for Science and Technology",
+        "url": "http://www.aascit.org/home/index",
+        "is_publisher": true
+    },
+    {
+        "name": "American Journal",
+        "url": "http://www.amjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "American Research Institute for Policy Development",
+        "url": "http://aripd.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "American Research Journals",
+        "url": "http://www.arjonline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "American Research Publications",
+        "url": "http://www.arepub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "American Scholarly Research Association",
+        "url": "http://www.asraresearch.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "American Scientific Publishers",
+        "url": "http://www.aspbs.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "American Scientific Research Journals",
+        "url": "http://www.americanscientificresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "American Society of Registered Nurses",
+        "url": "http://www.asrn.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "American Society of Science and Engineering",
+        "url": "http://www.as-se.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "American V-King Scientific Publishing",
+        "url": "http://www.vkingpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Amoghsiddhi Education Society",
+        "url": "http://aessangli.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Andrew John Publishing Inc.",
+        "url": "http://www.andrewjohnpublishing.org/open-access-publications.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Annex Publishers",
+        "url": "http://www.annexpublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ansinet",
+        "url": "http://www.ansinet.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Antarctic Journals",
+        "url": "http://www.domainsmoon.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Aperito Online Publishing",
+        "url": "http://aperito.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Apex Journal",
+        "url": "http://apexjournal.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Applied Science Innovations",
+        "url": "http://www.applied-science-innovations.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "APST Publication",
+        "url": "http://www.apst.co.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Arabian Group of Journals",
+        "url": "http://www.arabianjbmr.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Aradhya International Publication",
+        "url": "http://puneresearch.com/home",
+        "is_publisher": true
+    },
+    {
+        "name": "ARC Journals",
+        "url": "https://www.arcjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Archers & Elevators Publishing House",
+        "url": "http://www.aeph.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Archyworld",
+        "url": "http://www.archyworld.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ARPN Journals",
+        "url": "http://arpnjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "AS Publishers",
+        "url": "http://aspublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ASD Publisher",
+        "url": "http://asdpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ashdin Publishing",
+        "url": "http://www.ashdin.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "AshEse Visionary",
+        "url": "http://www.ashese.co.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Asia-Pacific Association of Medical Research",
+        "url": "http://www.apamr.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Asia Pacific Institute of Advanced Research",
+        "url": "http://apiar.org.au/",
+        "is_publisher": true
+    },
+    {
+        "name": "Asian Academic Research Associates",
+        "url": "http://www.asianacademicresearch.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Asian and American Research Publishing Group",
+        "url": "http://www.aarpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Asian Economic and Social Society",
+        "url": "http://www.aessweb.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Asian Online Journal Publishing Group",
+        "url": "http://www.asianonlinejournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Asian Online Journals",
+        "url": "http://www.ajouronline.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Asian Pharma Press",
+        "url": "http://www.asianpharmaonline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Asian Publication Corporation",
+        "url": "http://asianpubs.org/content/",
+        "is_publisher": true
+    },
+    {
+        "name": "Asian Research Consortium",
+        "url": "http://www.aijsh.org/?task=index",
+        "is_publisher": true
+    },
+    {
+        "name": "Asian Transactions",
+        "url": "http://www.asian-transactions.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Associated Asia Research Foundation",
+        "url": "http://www.aarf.asia/",
+        "is_publisher": true
+    },
+    {
+        "name": "Association for Sustainable Education, Research and Science",
+        "url": "http://www.asers.eu/asers-publishing/journals.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Association of Computer Electronics and Electrical Engineers",
+        "url": "http://www.theaceee.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Association of North America Higher Education International",
+        "url": "http://anahei.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Aster Publications",
+        "url": "http://asterpublications.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "AstonJournals",
+        "url": "http://astonjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Athal Press & Media",
+        "url": "http://www.athalgroup.com/Athal-Press-and-Media.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Atharva Scientific Publications",
+        "url": "http://www.atharvapub.com/HomePage/",
+        "is_publisher": true
+    },
+    {
+        "name": "Athens Institute for Education and Research",
+        "url": "http://www.atiner.gr/",
+        "is_publisher": true
+    },
+    {
+        "name": "Atlas Publishing, LP",
+        "url": "http://www.atlas-publishing.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Aufau Periodicals",
+        "url": "http://www.chesci.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Austin Publishing Group",
+        "url": "http://austinpublishinggroup.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Australasian Centre for Research and Development",
+        "url": "http://www.acrd.net.au/",
+        "is_publisher": true
+    },
+    {
+        "name": "Australian Academy of Business and Social Sciences",
+        "url": "http://www.aabss.org.au/",
+        "is_publisher": true
+    },
+    {
+        "name": "Australian Academy of Business Leadership",
+        "url": "http://aabl.com.au/",
+        "is_publisher": true
+    },
+    {
+        "name": "Australian International Academic Centre Pty. Ltd.",
+        "url": "http://www.aiac.org.au/",
+        "is_publisher": true
+    },
+    {
+        "name": "Australian International Research Consortium",
+        "url": "http://www.ausinternationaljournals.com.au/",
+        "is_publisher": true
+    },
+    {
+        "name": "Australian Society for Commerce Industry & Engineering",
+        "url": "http://www.scie.org.au/",
+        "is_publisher": true
+    },
+    {
+        "name": "Austrian E-Journals of Universal Scientific Organization",
+        "url": "http://www.aeuso.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Austrian Scientific Publication House",
+        "url": "http://www.autpub.org/MWP/",
+        "is_publisher": true
+    },
+    {
+        "name": "Avanti Publishers.com",
+        "url": "http://www.avantipublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Avens Publishing Group",
+        "url": "http://www.avensonline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Avestia Publishing",
+        "url": "http://avestia.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Avicena Publisher",
+        "url": "http://www.avicenapublisher.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Avid Science",
+        "url": "http://avidscience.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Axis Journals",
+        "url": "http://www.axisjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Baishideng Publishing Group",
+        "url": "http://www.wjgnet.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Basha Research Corporation",
+        "url": "http://basharesearch.com/journals.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Basic Research Journals",
+        "url": "http://basicresearchjournals.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Bell Press",
+        "url": "http://bellpress.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Bentham Open",
+        "url": "http://benthamopen.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Best Journals",
+        "url": "http://www.bestjournals.in/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Better Advances Press",
+        "url": "http://www.bapress.ca/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Betty Jones & Sisters Publishing",
+        "url": "http://bettyjonespub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Binary Information Press",
+        "url": "http://www.1010press.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Bio Accent",
+        "url": "http://bioaccent.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Bio Core",
+        "url": "http://biocoreopen.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Bioflux Society",
+        "url": "http://www.bioflux.com.ro/",
+        "is_publisher": true
+    },
+    {
+        "name": "Biohelikon",
+        "url": "http://www.biohelikon.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Biohouse Publishing Group",
+        "url": "http://biohouse.us/",
+        "is_publisher": true
+    },
+    {
+        "name": "BioInfo Publications",
+        "url": "http://www.bioinfopublication.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "BioIT international Journals\u00a0",
+        "url": "http://bipublication.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Biological and Chemical Publishing",
+        "url": "http://www.bacpl.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "BioMed Press",
+        "url": "http://www.biomedpress.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "BioMed Research",
+        "url": "http://bmrjournals.com/Home/Index",
+        "is_publisher": true
+    },
+    {
+        "name": "BioMedSciDirect Publications",
+        "url": "http://www.biomedscidirect.com/aboutjournal.php",
+        "is_publisher": true
+    },
+    {
+        "name": "BioPublisher",
+        "url": "http://biopublisher.ca/",
+        "is_publisher": true
+    },
+    {
+        "name": "Bioscience Research & Educational Institute",
+        "url": "http://www.bret.ac.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Blaze Journals",
+        "url": "http://blazejournals.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Blue Apple Publications",
+        "url": "http://www.blue-ap.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Blue Eyes Intelligence Engineering & Sciences Publication",
+        "url": "http://blueeyesintelligence.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Blue Ocean Research Journal",
+        "url": "http://www.borjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "BluePen Journals",
+        "url": "http://www.bluepenjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Bonfring",
+        "url": "http://www.bonfring.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Bowen Publishing",
+        "url": "http://www.bowenpublishing.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Brainy Buzz",
+        "url": "http://brainybuzz.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Bret Research Journals",
+        "url": "http://www.bretj.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "British Association of Academic Research",
+        "url": "http://www.bjmhs.baar.org.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "British Journal",
+        "url": "http://www.bjournal.co.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "British Open Research Publications",
+        "url": "http://www.borpub.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "BRNSS Publication Hub",
+        "url": "http://brnsspublicationhub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Business Journalz",
+        "url": "http://www.businessjournalz.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Business Management Centre",
+        "url": "http://www.bizmanagementcentre.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Business Perspectives",
+        "url": "http://businessperspectives.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Cafet Innova Technical Society",
+        "url": "http://cafetinnova.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Cairo Center for Development Benchmarking",
+        "url": "http://cdbenchmark.com/publishing",
+        "is_publisher": true
+    },
+    {
+        "name": "CSCanada",
+        "url": "http://cscanada.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Canadian Center of Science and Education",
+        "url": "http://ccsenet.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "CSCanada",
+        "url": "http://cscanada.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Canadian Research Publication",
+        "url": "http://www.crpub.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Canadian Science and Research Group",
+        "url": "http://www.cansrg.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Canadian Science and Technology Press Inc.",
+        "url": "http://canadianstpress.com/ojs/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Cardiology Academic Press",
+        "url": "http://cardiologyacademicpress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "CARI Journals",
+        "url": "http://www.carijournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Cenetri Publishing Group",
+        "url": "https://www.cenetrionline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Center for Enhancing Knowledge",
+        "url": "http://www.cekinfo.org.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Center for Global Research Development",
+        "url": "http://www.cgrd.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "The Center for Innovations in Business & Management Practice",
+        "url": "http://www.cibmp.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Center for Natural Science & Engineering Research",
+        "url": "http://cennser.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Center for Promoting Ideas",
+        "url": "http://www.cpinet.info/",
+        "is_publisher": true
+    },
+    {
+        "name": "Center for the Development and Dissemination of Knowledge",
+        "url": "http://www.cddk.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Center of Advanced Scientific Research and Publications",
+        "url": "http://casrp.co.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Central Bohemia University Publishing",
+        "url": "http://journals.cz/",
+        "is_publisher": true
+    },
+    {
+        "name": "Central Research Insight",
+        "url": "http://cri.ideainfinity.pk/?p=1",
+        "is_publisher": true
+    },
+    {
+        "name": "Centre For Info Bio Technology",
+        "url": "http://www.cibtech.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Centre for Multidisciplinary Research, Innovation and Collaboration",
+        "url": "http://www.c-mric.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Centre for Promoting Knowledge",
+        "url": "http://www.ijsrit.com/page.php?cat=25",
+        "is_publisher": true
+    },
+    {
+        "name": "Centre of Excellence for Scientific & Research Journalism\u00a0",
+        "url": "http://www.centreofexcellence.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Centre of Promoting Research Excellence",
+        "url": "http://cprenet.com/home/",
+        "is_publisher": true
+    },
+    {
+        "name": "CESER Publications",
+        "url": "http://www.ceser.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Chitkara University Publications",
+        "url": "http://www.chitkara.edu.in/publications/journals/",
+        "is_publisher": true
+    },
+    {
+        "name": "CIRWORLD",
+        "url": "https://cirworld.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Clerisy Publishers",
+        "url": "http://clerisyonlinepublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "ClinMed International Library",
+        "url": "http://clinmedjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Cloud Journals",
+        "url": "http://cloud-journals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Cloud Publications",
+        "url": "http://www.cloudpublications.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "The Clute Institute",
+        "url": "http://www.cluteinstitute.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Clyto Access",
+        "url": "http://www.clytoaccess.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Coltharp Institute",
+        "url": "http://www.coltharpinstitute.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Columbia International Publishing",
+        "url": "http://www.uscip.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Comparative Journals",
+        "url": "http://comparativejournals.org/index.php/index",
+        "is_publisher": true
+    },
+    {
+        "name": "Comprehensive Research Journals",
+        "url": "https://comprehensiveresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Computer Science Journals",
+        "url": "http://www.cscjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "CONFAB Journals",
+        "url": "http://www.confabjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Congress Press",
+        "url": "http://www.congresspress.com/Journals/index.php/index/index",
+        "is_publisher": true
+    },
+    {
+        "name": "CONSORTIUM Intellectual Consortium of Drug Discovery and Technology Development, Inc.",
+        "url": "http://www.icdtdi.ca/home.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Contemporary Research Center",
+        "url": "http://www.ijern.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Convergence Information Society",
+        "url": "http://www.globalcis.org/eng/",
+        "is_publisher": true
+    },
+    {
+        "name": "Cosmic Journals",
+        "url": "http://cosmicjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Cosmos Scholars Publishing House",
+        "url": "http://www.cosmosscholars.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Council for Innovative Research",
+        "url": "http://www.cirworld.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "CRDEEP International Journals",
+        "url": "http://www.crdeep.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Cresco Online Publishing",
+        "url": "http://crescopublications.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "CREST Journals",
+        "url": "http://www.crestjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Crown Journals",
+        "url": "http://www.crownjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "CSCanada",
+        "url": "http://cscanada.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "CTR Publications",
+        "url": "http://tcrjournals.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Current Research Web",
+        "url": "http://www.curresweb.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Cyber Journals",
+        "url": "http://www.cyberjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "DAMA International",
+        "url": "http://www.sciencejournal.in/home/",
+        "is_publisher": true
+    },
+    {
+        "name": "Darsgah-e-Ahlebait",
+        "url": "http://darsgah-e-ahlebait.com/journals.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Darshan Publishers",
+        "url": "http://darshanpublishers.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "David Publishing",
+        "url": "http://www.davidpublishing.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Deccan Pharma Journals",
+        "url": "http://www.deccanpharmajournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "DeNovo Scientific Publishing",
+        "url": "http://www.denovojournal.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Dentamed Publishing",
+        "url": "http://www.dentamedpublishing.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Design\u00a0for\u00a0Scientific Renaissance",
+        "url": "http://www.sign-ific-ance.co.uk/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "DEStech Publications, Inc.",
+        "url": "http://www.destechpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Developing Country Think Tank Institute",
+        "url": "http://dcthink.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Dhan Med Publishers",
+        "url": "http://www.dhanmedpublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Didactic Journals",
+        "url": "http://didacticjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Digital Information Research Foundation",
+        "url": "http://www.dirf.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Digital Science Press",
+        "url": "http://dscipress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Direct Research Journals",
+        "url": "http://directresearchpublisher.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "DISA Publication Group",
+        "url": "http://www.disa.org.in/DPGroup/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Discourse Journals",
+        "url": "http://www.resjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Discovery Publication",
+        "url": "http://discoveryjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "DJ Publications",
+        "url": "http://www.djjames.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Donnish Journals",
+        "url": "http://donnishjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Dorma Journals",
+        "url": "http://www.dormaj.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Dr.BGR Publications",
+        "url": "http://www.drbgrpublications.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "DRUNPP Sarajevo",
+        "url": "http://www.drunpp.ba/",
+        "is_publisher": true
+    },
+    {
+        "name": "Dynamic Publishers",
+        "url": "http://www.dynamicpublishers.org/journals/index.php/index",
+        "is_publisher": true
+    },
+    {
+        "name": "e-Century Publishing Corporation",
+        "url": "http://www.e-century.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "E-Cronicon",
+        "url": "https://www.ecronicon.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "e-journal",
+        "url": "http://worldresearchjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "e-Science Central",
+        "url": "http://esciencecentral.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "e3Journals",
+        "url": "http://www.e3journals.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Eagle Publishing Group",
+        "url": "http://eaglegp.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Earth Journals",
+        "url": "http://www.earthjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "\u201cEast West\u201d Association For Advanced Studies and Higher Education",
+        "url": "http://ew-a.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ebioscholar",
+        "url": "http://ebioscholar.com/ojs/index.php/index/index",
+        "is_publisher": true
+    },
+    {
+        "name": "Ebu Press",
+        "url": "http://www.ebupress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "eCanadian Journals",
+        "url": "http://www.ecanadianjournals.com/ecanadian/",
+        "is_publisher": true
+    },
+    {
+        "name": "Econjournals",
+        "url": "http://www.econjournals.com/index.php/index",
+        "is_publisher": true
+    },
+    {
+        "name": "The Economics and Social Development Organization",
+        "url": "http://www.tesdo.org/Default.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Edelweiss Publications",
+        "url": "http://edelweisspublications.com/edelweiss/frontend/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "EDUGAIT Press",
+        "url": "http://www.edugait.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "E-International Journals of Academic & Scientific Research",
+        "url": "http://eijasr.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "E-International Scientific Research Journal Consortium",
+        "url": "http://www.eisrjc.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Eighth Sense Research Group",
+        "url": "http://www.internationaljournalesrg.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Einstein International Journal Organization",
+        "url": "http://www.eijo.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "EISRJC Journals",
+        "url": "http://www.eisrjc.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "eJM",
+        "url": "http://www.ejmscience.com/journals/",
+        "is_publisher": true
+    },
+    {
+        "name": "eJournals of Academic Research & Reviews",
+        "url": "http://www.ejarr.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Eko Journal",
+        "url": "http://www.ekojournal.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "eLearning Institute",
+        "url": "http://www.theelearninginstitute.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Electronic Center for International Scientific Information",
+        "url": "http://ecisi.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Elewa Bio Sciences",
+        "url": "http://www.m.elewa.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Elite Hall Publishing House",
+        "url": "http://elitehall.elitehall.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Elite Research Journals",
+        "url": "http://www.eliteresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "ELK Asia Pacific Journals",
+        "url": "http://www.elkjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ElmCore Journals",
+        "url": "http://www.science-fellows.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Elmer Press",
+        "url": "http://www.elmerpress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ELVEDIT.COM",
+        "url": "http://elvedit.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Elyns Publishing Group",
+        "url": "http://www.elynsgroup.com/Default.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Emerging Academy Resources",
+        "url": "http://www.emergingresource.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Engineering and Technology Publishing",
+        "url": "http://etpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Engineering Journals",
+        "url": "http://www.enggjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Engineering Publication House",
+        "url": "http://ephjournal.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Engineering Research Publication",
+        "url": "https://www.erpublication.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Enhanced Research Publications",
+        "url": "http://www.erpublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Enliven Archive",
+        "url": "http://www.enlivenarchive.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Enriched Science Publication",
+        "url": "http://www.printjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Enviro Publishers",
+        "url": "http://www.enviropublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ERM Publications",
+        "url": "http://www.researchersworld.com/ermp.html",
+        "is_publisher": true
+    },
+    {
+        "name": "EPH Journal",
+        "url": "http://ephjournal.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "EPIX PUB",
+        "url": "http://epixpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "EPRA Journals",
+        "url": "http://eprajournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "EPRA Wisdom",
+        "url": "http://eprawisdom.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Erudite Journals Limited",
+        "url": "http://eruditejournals.org/ejb/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "ESRSA Publication\u00a0",
+        "url": "http://www.esrsa.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "ESci Journals Publishing",
+        "url": "http://www.escijournals.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "eScience Publisher",
+        "url": "http://escipub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ETA Maths Journals",
+        "url": "http://etamaths.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ethan Publishing Company",
+        "url": "http://www.ethanpublishing.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Eurasian Academy of Sciences",
+        "url": "http://eurasianacademy.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Eurasian Publications",
+        "url": "http://www.eurasianpublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Eurasian Research Publishing",
+        "url": "http://www.erepub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Eurasian Union of Scientists",
+        "url": "http://euroasia-science.ru/en/about/",
+        "is_publisher": true
+    },
+    {
+        "name": "Euro Asia Research and Development Association",
+        "url": "http://www.euroasiapub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "EuroJournals",
+        "url": "http://eurojournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "European-American Journals",
+        "url": "http://ea-journals.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "European Center for Science Education and Research",
+        "url": "http://euser.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "European Journals of Business Management",
+        "url": "http://www.ejobm.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "European Journals of Education Studies",
+        "url": "http://oapub.org/edu/index.php/index",
+        "is_publisher": true
+    },
+    {
+        "name": "The European Scientific Community",
+        "url": "http://europe-science.com/en/",
+        "is_publisher": true
+    },
+    {
+        "name": "European Union Research Publishing",
+        "url": "http://www.eurpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Everant",
+        "url": "http://everant.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "EverScience Publications",
+        "url": "http://www.everscience.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "ExcelingTech Publishing Company, Ltd.",
+        "url": "http://ojs.excelingtech.co.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Excellent Publishers",
+        "url": "http://www.excellentpublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Excellent Word Journals",
+        "url": "http://www.excellentwordjournals.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Excelytics Publishers",
+        "url": "http://excelyticspublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Expert Journals",
+        "url": "http://www.expertjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Far East Research Centre",
+        "url": "http://www.fareastjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ficus Publishers",
+        "url": "http://ficuspublishers.com/Home.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Finlogy",
+        "url": "http://onlinejournal.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Focus in Research & Education",
+        "url": "http://firepubs.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Foundation for Promotion of Basic & Applied Science",
+        "url": "http://www.fopras.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Friends Science Publishers",
+        "url": "http://www.fspublishers.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Frontiers",
+        "url": "http://www.frontiersin.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Frontiers in Bioscience",
+        "url": "https://www.bioscience.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "FSSH Scholarly Journals",
+        "url": "http://fssh-journal.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Fundamental Journals",
+        "url": "http://fundamentaljournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Fundamental Research and Development International",
+        "url": "http://frdint.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Future Academy",
+        "url": "http://www.futureacademy.org.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Galore Knowledge Publication Pvt. Ltd.",
+        "url": "http://www.gkpublication.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Gatha Cognition",
+        "url": "http://www.gathacognition.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Gavin Publishers",
+        "url": "http://gavinpublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "GBS Publishers & Distributors (India)",
+        "url": "http://www.gbspublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Genexcellence Publication",
+        "url": "http://gpublication.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "German Science and Technology Press",
+        "url": "http://grsci-techpress.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Gexin Publications",
+        "url": "http://gexinonline.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Academic Institute",
+        "url": "http://www.globalacademicinstitute.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Advanced Research Journals",
+        "url": "http://garj.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Business Research Journals",
+        "url": "http://www.globalbizresearch.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Institute for Research and Education",
+        "url": "http://www.gifre.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academy of Science and Higher Education",
+        "url": "http://iashe.eu/en/periodicals-journals-academy",
+        "is_publisher": true
+    },
+    {
+        "name": "The Global Journals",
+        "url": "http://www.paripex.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Journals, Inc. (US)",
+        "url": "http://globaljournals.us/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Open Journals",
+        "url": "http://globalopenjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Openaccess",
+        "url": "http://globalopenaccess.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Publishing Corporation",
+        "url": "http://gpcpublishing.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Research Journals",
+        "url": "http://www.globalresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Research Online",
+        "url": "http://www.globalresearchonline.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Research Publishing",
+        "url": "http://www.grpjournal.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Researchers Journals",
+        "url": "http://www.grjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Scholars Journals",
+        "url": "http://www.globalscholarsjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Science Center LP",
+        "url": "http://european-science.org/en/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Science Publishing Group",
+        "url": "http://globalsciencepg.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Science Research Journals",
+        "url": "http://globalscienceresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Scientific, Inc.",
+        "url": "http://globalpublication.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Scientific Research Journals",
+        "url": "http://www.gsrjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Society of Scientific Research and Researchers",
+        "url": "http://gssrr.org/index.php?journal=gssrr&page=index",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Technocrats & Intellectual\u2019s Association",
+        "url": "http://www.gtia.co.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "GlobalSkope Publishing Society",
+        "url": "http://globalskope.com/ijesr/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Gnosis Open Access Publishers",
+        "url": "http://www.gnosisoa.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Gopalax",
+        "url": "http://www.ijcns.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "GRABS Educational Charitable Trust",
+        "url": "http://grabstrust.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Grant Medical Journals",
+        "url": "http://grantmedicaljournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Graphy Publications",
+        "url": "http://www.graphyonline.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Gratis Open Access Publishers",
+        "url": "http://www.gratisoa.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "GRDS Publishing",
+        "url": "http://grdspublishing.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Green Earth Research Network",
+        "url": "http://www.gejournal.net/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Green Global Foundation",
+        "url": "http://www.ggfagro.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Greener Journals",
+        "url": "http://www.gjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Greenfield Advanced Research Publishing House",
+        "url": "http://www.garph.co.uk/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Growing Science Publishing Company",
+        "url": "http://growingscience.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "GS Publishers",
+        "url": "http://www.gspublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "GSB Life Sciences",
+        "url": "http://gsblifesciences.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Gurpukur Research Institute",
+        "url": "http://gscience.gurpukur.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Gyancity Research Lab Private Limited",
+        "url": "http://gyancity.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Halmac Research",
+        "url": "http://www.halmacresearch.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Hans Publishers, Inc.",
+        "url": "http://www.hanspub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Har Krishan Bhalla & Sons",
+        "url": "http://hkbpublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Heighten Science Publications",
+        "url": "http://www.heighpubs.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Helics Scientific Network",
+        "url": "http://helicsonline.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Hendun Research Access",
+        "url": "http://www.hendun.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Henry Publishing Group",
+        "url": "http://www.henrypublishinggroup.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Herald International Research Journals",
+        "url": "http://heraldjournals.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Herald Scholarly Open Access",
+        "url": "http://www.heraldopenaccess.us/",
+        "is_publisher": true
+    },
+    {
+        "name": "Herbert Open Access Journals",
+        "url": "http://www.hoajonline.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Hikari Ltd.",
+        "url": "http://www.m-hikari.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Hilaris",
+        "url": "http://www.e-hilaris.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Hind Agri-Horticultural Society",
+        "url": "http://www.researchjournal.co.in/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Horizon Journals",
+        "url": "http://www.horizonjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Horizon Research Publishing",
+        "url": "http://www.hrpub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Human and Sciences Publications",
+        "url": "http://www.humanpub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Human Resource Management Academic Research Society",
+        "url": "http://hrmars.com/index.php?page=our%20journals%20f",
+        "is_publisher": true
+    },
+    {
+        "name": "i-Explore International Research Journals Consortium",
+        "url": "http://www.irjcjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "IAMURE Multidisciplinary Research",
+        "url": "http://www.iamure.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ibai-publishing",
+        "url": "http://ibai-publishing.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "IBIMA Publishing",
+        "url": "http://www.ibimapublishing.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ICGST",
+        "url": "http://www.icgst.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "iConcept Press Ltd.",
+        "url": "https://www.iconceptpress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ICTACT Journal",
+        "url": "http://www.ictactjournals.in/index.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Id Press / ID Design",
+        "url": "http://www.id-press.eu/",
+        "is_publisher": true
+    },
+    {
+        "name": "IERI & PRESS",
+        "url": "http://www.ieripress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "IGM Publication",
+        "url": "http://igmpublication.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "IIARD Publication Company",
+        "url": "http://www.iiardonline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "iJARS Group",
+        "url": "http://www.ijarsgroup.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ijbsse.org",
+        "url": "http://ijbsse.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "ijManager \u2013 Online Journal Management",
+        "url": "http://www.ijmanager.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "IJRCM",
+        "url": "http://ijrcm.org.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "IMED Research Publications",
+        "url": "http://www.ijmhr.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "iMedPharm",
+        "url": "http://www.imedpharm.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "iMed.pub",
+        "url": "http://imed.pub/",
+        "is_publisher": true
+    },
+    {
+        "name": "Impact Journals",
+        "url": "http://www.impactjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Impact Journals",
+        "url": "http://www.impactjournals.us/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Imperial Journals",
+        "url": "http://www.imperialjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Imprints Open Access",
+        "url": "http://imprintsonline.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Indian Academicians and Researchers Association",
+        "url": "http://iaraedu.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Indian Society for Education and Environment",
+        "url": "http://www.iseeadyar.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "IndianResearchJournals.Com",
+        "url": "http://indianresearchjournals.com/Default.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Indus Foundation for Education, Research & Social Welfare",
+        "url": "http://www.indusedu.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Infinity Press",
+        "url": "http://infinitypress.info/publisher/",
+        "is_publisher": true
+    },
+    {
+        "name": "infofacility",
+        "url": "http://www.infofacility.com/journals",
+        "is_publisher": true
+    },
+    {
+        "name": "Infonomics Society",
+        "url": "http://infonomics-society.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Inforesights Publishing",
+        "url": "http://inforesights.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Informatics Journals",
+        "url": "http://www.informaticsjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Information Engineering Research Institute",
+        "url": "http://www.ier-institute.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Ingenious Enterprises International",
+        "url": "http://ingenin.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Innovare Academic Sciences",
+        "url": "http://innovareacademics.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Innovational Publishers",
+        "url": "http://www.innovationalpublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Innovative Journals",
+        "url": "http://www.innovativejournal.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Innovative Publication",
+        "url": "http://www.innovativepublication.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Innovative Space of Scientific Research",
+        "url": "http://www.issr-journals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Innovinc",
+        "url": "http://innovinc.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "INPRESSCO",
+        "url": "http://inpressco.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "INREWI",
+        "url": "http://www.inrewi.com/home",
+        "is_publisher": true
+    },
+    {
+        "name": "Ishaan Publishing House",
+        "url": "http://www.iphsci.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Insight Core",
+        "url": "http://www.insightcore.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Insight Knowledge",
+        "url": "http://insightknowledge.co.uk/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Insight Medical Publishing",
+        "url": "http://imedpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Instaci",
+        "url": "http://www.instascijournals.info/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "The Institute for Business and Finance Research",
+        "url": "http://www.theibfr.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute for Research and Development India",
+        "url": "http://www.irdindia.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute of Advanced Scientific Research",
+        "url": "http://www.i-asr.com/journals.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute of Doctors Engineers and Scientists",
+        "url": "http://www.theides.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute of Electronic & Information Technology",
+        "url": "http://www.ieit-web.org/apscj/editorialboard.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute of Integrative Omics and Applied Biotechnology",
+        "url": "http://iioab.webs.com/researchandpublications.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute of Language and Communication Studies",
+        "url": "http://www.inlcs.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute of Research Advances",
+        "url": "http://www.research-advances.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute of Research and Journals",
+        "url": "http://iraj.in/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute of Research Engineers and Doctors\u00a0",
+        "url": "http://www.theired.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute of Research Engineers and Scientists",
+        "url": "http://theires.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute of Research In Engineering and Technology",
+        "url": "http://www.iret.co.in/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute of Strategic and International Studies",
+        "url": "http://www.isisworld.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "InTechOpen\u00a0",
+        "url": "http://www.intechweb.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Integrated Academic Journals",
+        "url": "http://www.intergratedjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Integrated Intelligent Research",
+        "url": "http://iirpublications.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Integrated Publishing Association",
+        "url": "http://www.ipublishing.co.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Integrated Science Publications",
+        "url": "http://indianscience.in/pubs/journals/",
+        "is_publisher": true
+    },
+    {
+        "name": "Intellectual Archive",
+        "url": "http://www.intellectualarchive.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Intercontinental Management Research Review",
+        "url": "http://icmrr.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Interlink Continental Journals",
+        "url": "http://icjpublishers.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Intermedcentral",
+        "url": "http://www.intermedcentral.hk/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academic Journals",
+        "url": "http://www.inacj.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academic Publishing House",
+        "url": "http://www.iaph.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academy for Advancement of Business Research",
+        "url": "http://www.iaabr.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academy for Science & Technology Education and Research",
+        "url": "http://www.iaster.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academy of Arts, Science & Technology",
+        "url": "http://iaast.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academy of Business",
+        "url": "http://www.intl-academy.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academy of Business & Economics",
+        "url": "http://www.iabe.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academy of Computer & IT Engineering",
+        "url": "http://iacite.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academy of Ecology and Environmental Sciences\u00a0",
+        "url": "http://www.iaees.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academy of Science and Higher Education\u00a0",
+        "url": "http://iashe.eu/en/periodicals-journals-academy",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academy of Science, Engineering and Technology",
+        "url": "http://www.iaset.us/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academy of Science, Engineering and Technology",
+        "url": "http://international-aset.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academy of Science, Technology, Engineering and Management",
+        "url": "http://iastem.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Academy Publishing",
+        "url": "http://www.iap.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "The International Academy, Research and Industry Association",
+        "url": "http://www.iaria.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Advances for Research",
+        "url": "http://www.intlafr.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "International Agency for Development of Culture, Education and Science",
+        "url": "http://iadces.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Association for Academians",
+        "url": "http://www.academians.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Association for Engineering & Technology",
+        "url": "http://www.iaet.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Association for Engineering and Management Education",
+        "url": "http://www.iaeme.com/about.asp",
+        "is_publisher": true
+    },
+    {
+        "name": "International Association for Information, Culture, Human and Industry Technology",
+        "url": "http://www.aicit.org/publications.html",
+        "is_publisher": true
+    },
+    {
+        "name": "International Association of Computer Science and Information Technology",
+        "url": "http://www.iacsit.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Association of Advances in Engineering and Technology",
+        "url": "http://iaaet.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Association of Engineering & Technology Researchers",
+        "url": "http://iaetr.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Association of Journals & Conferences",
+        "url": "http://www.iajc.org/overview.html",
+        "is_publisher": true
+    },
+    {
+        "name": "International Association of Scientific Innovation and Research",
+        "url": "http://iasir.net/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "International Association of Technology Education & Industry",
+        "url": "http://iatei.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Bauhaus Science Press",
+        "url": "http://www.bhssci.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Center for Business Research",
+        "url": "http://icbr.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Centre for Integrated Development Research",
+        "url": "http://www.icidr.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "International Centre of Culture Inventory",
+        "url": "http://www.icoci.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Computer Science and Engineering Society",
+        "url": "http://www.i-cses.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Conference on Computer Science and Engineering",
+        "url": "http://www.icgst.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Digital Organization for Scientific Information",
+        "url": "http://idosi.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "International Economics Development and Research Center",
+        "url": "http://www.iedrc.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Education Research Foundation",
+        "url": "http://www.ierfinfo.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Educative Research Foundation And Publisher",
+        "url": "http://www.publisher.ijier.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "International eJournals",
+        "url": "http://internationalejournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Formulae Group",
+        "url": "http://www.ifgdg.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Forum of Researchers Students and Academician",
+        "url": "http://www.ifrsa.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Foundation for Modern Education and Scientific Research",
+        "url": "http://infomesr.org/en/home",
+        "is_publisher": true
+    },
+    {
+        "name": "International Foundation for Research and Development",
+        "url": "http://www.ifrnd.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International House for Academic Scientific Research",
+        "url": "http://www.ihasr.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Indexed Refereed Research Journal",
+        "url": "http://www.ssmrae.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Information Institute",
+        "url": "http://www.information-iii.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Institute for Private, Commercial and Competition Law",
+        "url": "http://iipccl.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Institute for Science, Technology and Education",
+        "url": "http://www.iiste.org/Journals/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Institute of Engineers",
+        "url": "http://www.iieng.org/journals.php",
+        "is_publisher": true
+    },
+    {
+        "name": "International Institute of Engineers & Researchers",
+        "url": "http://theiier.org/Conference/Singapore/1/ICSTEM/publication.php",
+        "is_publisher": true
+    },
+    {
+        "name": "International Institute of Informatics and Systemics",
+        "url": "http://www.iiis.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Institute of Science & Industry Research",
+        "url": "http://www.iisir.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Invention Journals",
+        "url": "http://internationalinventjournals.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journal of College & University",
+        "url": "http://ijcu.us/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journal of Research & Development Organisation",
+        "url": "http://www.ijrdo.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journal Publishers Group",
+        "url": "http://www.ijpg.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "The International Journal Research Publications",
+        "url": "http://www.theinternationaljournal.org/ojs/index1.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals",
+        "url": "https://ijddmr.wordpress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals.co.in",
+        "url": "http://www.internationaljournals.co.in/titles.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals for Research",
+        "url": "http://internationaljournalsforresearch.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals for Research",
+        "url": "http://ijrgroup.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals for Researchers",
+        "url": "http://www.ijronline.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journal of Academic Research",
+        "url": "http://www.eu-print.org/ilk.php",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals of Engineering & Sciences",
+        "url": "http://www.ijens.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals of Multi Dimensional Research",
+        "url": "http://www.ijmr.net.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals of Multidisciplinary Research Academy",
+        "url": "http://www.ijmra.us/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals of N&N Global Technology",
+        "url": "http://www.ijnngt.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals of Research",
+        "url": "http://intjr.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals of Research Papers",
+        "url": "http://gssrr.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals of Sciences and High Technologies",
+        "url": "http://ijsht-journals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals of Scientific Knowledge",
+        "url": "http://www.ijsk.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals of Scientific Research Publications",
+        "url": "http://www.ijsrpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journals of Scientific Research",
+        "url": "http://ijscience.com/default.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "International Knowledge Press",
+        "url": "http://www.ikpresse.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Knowledge Sharing Platform\u00a0SEE\u00a0International Institute for Science, Technology and Education (IISTE)",
+        "url": "",
+        "is_publisher": true
+    },
+    {
+        "name": "International Network for Applied Sciences and Technology",
+        "url": "http://www.inast.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Network for Natural Sciences",
+        "url": "http://www.innspub.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Network for Scientific & Industrial Information",
+        "url": "http://insii.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "International Online Knowledge Services Provider",
+        "url": "http://www.ioksp.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "International Online Medical Council",
+        "url": "http://www.iomcworld.com/publications.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "International Organization Center of Academic Research",
+        "url": "http://www.ocerint.org/index.php/homepage",
+        "is_publisher": true
+    },
+    {
+        "name": "International Organization of Scientific Invention",
+        "url": "http://iosi.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Organization of Scientific Research",
+        "url": "http://iosrjournals.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "International Organization of Scientific Research and Development",
+        "url": "http://iosrd.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Postgraduate Network",
+        "url": "http://www.internationalpostgraduatenetwork.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Publisher & C.O",
+        "url": "http://ipco-co.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Publisher for Advanced Scientific Journals",
+        "url": "http://ipasj.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "International Recognition Multidisciplinary Research Journals, Monthly Publish",
+        "url": "http://lsrj.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Recognition Research Journals",
+        "url": "http://www.lsrj.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Research Association of Computer Science, & Technology\u00a0",
+        "url": "http://www.iracst.org/home.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "International Research E-Journals",
+        "url": "http://www.oiirj.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Research Group",
+        "url": "http://www.irgjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Research Journals",
+        "url": "http://resjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Research Journals\u00a0",
+        "url": "http://www.interesjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Research Organization of Computer Science",
+        "url": "http://www.irocsjournals.org/irocs/home.php",
+        "is_publisher": true
+    },
+    {
+        "name": "International Research Publication House",
+        "url": "http://www.irphouse.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Research Society For Promotion of Science",
+        "url": "http://www.inposo.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Scholarly Open Access Research",
+        "url": "http://internationaljournalofresearch.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Scholars Journals",
+        "url": "http://internationalscholarsjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Science & Research Journals",
+        "url": "http://www.isrjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Science and Medical Journals",
+        "url": "http://www.isamedjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Science Community Association",
+        "url": "http://www.isca.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Scientific Academic Corporation",
+        "url": "http://isacorporation.org.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Scientific Academy of Engineering & Technology",
+        "url": "http://www.isaet.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Scientific Engineering and Research Publications",
+        "url": "http://iserp.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Scientific Invention Journals",
+        "url": "http://isij.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Scientific Publications",
+        "url": "http://www.scientific-publications.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Scientific Research Organization for Science, Engineering and Technology",
+        "url": "http://www.isroset.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Scientific Research Organization Journals",
+        "url": "http://isroj.net/index.php?menu=home",
+        "is_publisher": true
+    },
+    {
+        "name": "International Skill Research Journals",
+        "url": "http://acjournal.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Society for Engineering Research and Development",
+        "url": "http://www.iserd.co/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Society for Engineers and Researchers",
+        "url": "http://iser.co/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Society for green.sustainable engineering and management",
+        "url": "http://isgsemjournal.blogspot.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Society for Zoological Research",
+        "url": "http://iszr.org/Jrs/index.php/index/index",
+        "is_publisher": true
+    },
+    {
+        "name": "International Society of Thesis Publication",
+        "url": "http://www.istp.org.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Society of Universal Research in Sciences",
+        "url": "http://www.isurs.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Technology Innovation",
+        "url": "http://theiti.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "InternationalJournals.co.in",
+        "url": "http://internationaljournals.co.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Internet Scientific Publications",
+        "url": "http://www.ispub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Interscience Journals",
+        "url": "http://interscience.org.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Interscience Open Access Journals",
+        "url": "http://www.interscience.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Inter-USE",
+        "url": "http://inter-use.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Intuition Journals",
+        "url": "http://intuitionjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Invention Journals",
+        "url": "http://inventionjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "IORE International",
+        "url": "http://www.ioreinternational.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "IOS Publishing",
+        "url": "http://www.iospublishing.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Organization of Scientific Research",
+        "url": "http://iosrjournals.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "iProbe",
+        "url": "https://www.iprobegrp.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ira Publications",
+        "url": "http://www.irapub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "IRED International Journals",
+        "url": "http://theired.org/organizer.html",
+        "is_publisher": true
+    },
+    {
+        "name": "IRO Journals",
+        "url": "http://irojournals.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "IROSSS",
+        "url": "http://www.irosss.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Isaac Scientific Publishing",
+        "url": "http://www.isaacpub.org/Home.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "iSER Publications",
+        "url": "http://iserjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ishitv Technologies",
+        "url": "http://ishitvtech.in/#",
+        "is_publisher": true
+    },
+    {
+        "name": "ISISnet",
+        "url": "http://www.isisn.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Islamic World Network for Environmental Science and Technology",
+        "url": "http://www.iwnest.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "ISPACS",
+        "url": "http://ispacs.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ivy Union Publishing",
+        "url": "http://ivyunion.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Jabalpur Management Association",
+        "url": "http://jabalpurmanagementassociation.co.in/Journals.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Jacobs Publishers",
+        "url": "http://www.jacobspublishers.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "JACS Directory",
+        "url": "http://jacsdirectory.com/jacs/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Jaypee Journals",
+        "url": "http://jaypeejournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "JET Publishing",
+        "url": "http://www.jetpublishing.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Journals of Scientifics R&D",
+        "url": "http://journals-of-scientifcs-rd.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Joseph Publishing Group",
+        "url": "http://www.josephpublishinggroup.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Journal Dynamics",
+        "url": "http://www.journaldynamics.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Journal Issues",
+        "url": "http://www.journalissues.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Journal Network",
+        "url": "http://www.journalnetwork.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Journal of Comprehensive Research",
+        "url": "http://jupapadoc.startlogic.com/compresearch/",
+        "is_publisher": true
+    },
+    {
+        "name": "Journal of Harmonized Research Publications",
+        "url": "http://www.johronline.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Journal of The International Association of Advanced Technology and Science",
+        "url": "http://www.jiaats.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Journals Club & Co.",
+        "url": "https://journalsclub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Journals Pub",
+        "url": "http://www.journalspub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "JournalsBank",
+        "url": "http://www.journalsbank.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "JScholar Journals",
+        "url": "http://www.jscholaronline.org/list-of-journals.php",
+        "is_publisher": true
+    },
+    {
+        "name": "JSciMed Central",
+        "url": "http://www.jscimedcentral.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "July Press",
+        "url": "http://julypress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Juniper Publishers",
+        "url": "http://juniperpublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Jyoti Academic Press",
+        "url": "http://jyotiacademicpress.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "KAAV Publications",
+        "url": "http://www.kaavpublications.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Kaleidoscope Journals",
+        "url": "http://www.kjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "KambohWell Publisher Enterprises",
+        "url": "http://www.kwpublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Kamla Raj Enterprises",
+        "url": "http://www.krepublishers.com/KRE-New-J/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "KEI Journals",
+        "url": "http://www.journals.ke-i.org/index.php/index/index",
+        "is_publisher": true
+    },
+    {
+        "name": "KEJA Publications",
+        "url": "http://www.kejapub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Kenkyu Group",
+        "url": "http://www.kenkyuonline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Key Research Journals",
+        "url": "http://www.keyresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Kiban Research Publications",
+        "url": "http://kibanresearchpublications.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Kindi Publication",
+        "url": "http://www.kindipublication.com/home.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Knowledge Publishing Printing & Distribution House",
+        "url": "http://www.knowledgepublishinghouse.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Knowledgebase Publishers",
+        "url": "http://www.knowledgebasepublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "KnowledgeCuddle Publication",
+        "url": "http://www.knowledgecuddle.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "KnowledgesPublisher",
+        "url": "http://www.knowledgespublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Knowledgia Scientific",
+        "url": "http://www.knowledgia.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Kogaion Publishing Center",
+        "url": "http://euacademic.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Kowsar Publishing",
+        "url": "http://kowsarpub.com/en/",
+        "is_publisher": true
+    },
+    {
+        "name": "Kozmenko Science Publishing",
+        "url": "http://www.kozmenkopublishing.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Krishi Sanskriti",
+        "url": "http://www.krishisanskriti.org/Jounrals.php?title=Journals",
+        "is_publisher": true
+    },
+    {
+        "name": "KSP Journals",
+        "url": "http://kspjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "KY Publications",
+        "url": "http://www.kypublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ladder Publishing House",
+        "url": "http://www.ladderpublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Landmark Research Journals",
+        "url": "http://www.landmarkresearchjournals.org/lrjbme/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "LAR",
+        "url": "http://www.thelar.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Lawarence Press",
+        "url": "http://lawarencepress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Lecolink Research Journals",
+        "url": "http://www.lecolinkresearchjournals.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Lectito Journals",
+        "url": "http://www.lectitojournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Leena & Luna International",
+        "url": "http://www.ajssh.leena-luna.co.jp/",
+        "is_publisher": true
+    },
+    {
+        "name": "Lexis Publisher",
+        "url": "http://lexispublisher.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Library of Academic Resources",
+        "url": "http://thelar.ca/",
+        "is_publisher": true
+    },
+    {
+        "name": "Lifescience Global",
+        "url": "http://www.lifescienceglobal.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "LifeSciFeed Ventures",
+        "url": "http://www.lifescifeed.com/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Lighthouse Journal Publication",
+        "url": "http://www.lighthousejournals.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Literati Scientific and Publishers",
+        "url": "http://literatipublishers.com/Journal/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "London Journals Press",
+        "url": "http://journalspress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Longbridge Publishing Company",
+        "url": "http://www.lbrpublishing.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Look Academic Publishers",
+        "url": "http://lookacademy.nl/",
+        "is_publisher": true
+    },
+    {
+        "name": "Lorem Journals",
+        "url": "http://loremjournals.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Macoctagon Journals",
+        "url": "http://www.macoctagonjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "macroJournals",
+        "url": "http://macrojournals.com/home",
+        "is_publisher": true
+    },
+    {
+        "name": "Macrothink Institute",
+        "url": "http://www.macrothink.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "MacroWorld",
+        "url": "http://www.macroworldpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Madridge Publishers",
+        "url": "http://madridge.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Mainspringer",
+        "url": "http://mainspringer.com/pub_site/",
+        "is_publisher": true
+    },
+    {
+        "name": "Management Journals",
+        "url": "http://www.managementjournals.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Marsland Press",
+        "url": "http://www.sciencepub.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Mary and Sam Research Academia",
+        "url": "http://www.marynsam.co.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Maryland Institute of Research",
+        "url": "http://miredu.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "MASAUM Network",
+        "url": "http://www.masaumnet.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Mathews Open Access Journals",
+        "url": "http://www.mathewsopenaccess.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Maxwell Scientific Organization",
+        "url": "http://maxwellsci.com/jlist.php",
+        "is_publisher": true
+    },
+    {
+        "name": "MAYFEB Technology Development",
+        "url": "http://www.mayfeb.com/OJS/",
+        "is_publisher": true
+    },
+    {
+        "name": "McMed International",
+        "url": "http://mcmed.us/",
+        "is_publisher": true
+    },
+    {
+        "name": "Meas Publishing Ltd",
+        "url": "http://measpublishing.co.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "MECS",
+        "url": "http://www.mecs-press.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "MedCrave",
+        "url": "http://medcraveonline.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Medical science",
+        "url": "http://www.ghrnet.org/index.php/index/index",
+        "is_publisher": true
+    },
+    {
+        "name": "Medical Science Journals",
+        "url": "http://medical.sciencejournals.cc/",
+        "is_publisher": true
+    },
+    {
+        "name": "Medip Academy",
+        "url": "http://www.medipacademy.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Mediterranean Center of Social and Educational Research",
+        "url": "http://mcser.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "MEDNANO Publications",
+        "url": "http://www.medtechnano.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Medwell Journals",
+        "url": "http://www.medwelljournals.com/home.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Medwin Publishers",
+        "url": "http://medwinpublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Meghana Publications",
+        "url": "http://meghanapublications.com/index.php#MEGHANA",
+        "is_publisher": true
+    },
+    {
+        "name": "Mehta Press",
+        "url": "http://www.mehtapress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Merit Research Journals",
+        "url": "http://meritresearchjournals.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Meta Research Press",
+        "url": "http://www.mrpress.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "MNK Publication",
+        "url": "http://www.mnkjournals.com/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Modern Research Publishers",
+        "url": "http://www.modernrespub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Modern Scientific Press",
+        "url": "http://modernscientificpress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Mr. Scholar",
+        "url": "https://www.mrscholar.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Muhammadon Centre for Research and Development",
+        "url": "http://www.muhammadon.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "MuK Publications & Distributions",
+        "url": "http://www.mukpublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Multidisciplinary Journals",
+        "url": "http://www.multidisciplinaryjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Mustang Journals",
+        "url": "http://mustangjournals.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "N&N Global Technology",
+        "url": "http://www.nngt.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Narain Publishers Pvt. Ltd",
+        "url": "http://www.npplweb.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "National Association of Scholars",
+        "url": "http://national-science.ru/",
+        "is_publisher": true
+    },
+    {
+        "name": "National College of Physicians",
+        "url": "https://www.ncnp.org/medical-journals.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Natural Sciences Publishing Corporation",
+        "url": "http://www.naturalspublishing.com/index.asp",
+        "is_publisher": true
+    },
+    {
+        "name": "Naturepub",
+        "url": "http://naturepub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Nauk Publication",
+        "url": "http://www.naukpublication.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Nemis Journals",
+        "url": "http://www.nemisjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Nessa Publishers",
+        "url": "http://www.nessapublishers.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Net Journals",
+        "url": "http://www.netjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "New Century Publishing Group",
+        "url": "http://www.newcpress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "New Century Science Press",
+        "url": "http://www.newcenturyscience.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "New Delhi Publisher",
+        "url": "http://ndpublisher.in/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "New Ground Research Journals",
+        "url": "http://www.newgroundresjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "New Science Series Journals",
+        "url": "http://web.newscienceseries.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "New Scientist Publishers",
+        "url": "http://www.newscientistpublish.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "New World Publishing",
+        "url": "http://www.newworldpub.com/homepage.html",
+        "is_publisher": true
+    },
+    {
+        "name": "New World Sciences Academy",
+        "url": "http://www.newwsa.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Newpubli",
+        "url": "http://www.newpubli.com/index.shtml",
+        "is_publisher": true
+    },
+    {
+        "name": "Nexus Academic Publishers",
+        "url": "http://nexusacademicpublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "nhsJournal",
+        "url": "http://nhsjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Noble Academic Publisher",
+        "url": "http://napublisher.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Nobel International Journals",
+        "url": "http://www.nobel.gen.tr/",
+        "is_publisher": true
+    },
+    {
+        "name": "NobleResearch",
+        "url": "http://nobleresearch.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Non Olympic Times",
+        "url": "http://www.nonolympictimes.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "North American Research Publishing",
+        "url": "http://www.narpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "North Asian International Research Journal Consortium",
+        "url": "http://www.nairjc.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "North Atlantic University Union",
+        "url": "http://www.naun.org/wseas/cms.action",
+        "is_publisher": true
+    },
+    {
+        "name": "Noto-are",
+        "url": "https://www.notoare.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Nova Explore Publications",
+        "url": "http://novaexplore.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Novel Science",
+        "url": "http://www.nvlscience.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Novelty Journals",
+        "url": "http://www.noveltyjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Novus Scientia Journals",
+        "url": "http://novusscientia.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Nuclei Online",
+        "url": "http://nucleionline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "OA Publishing London",
+        "url": "http://oapublishinglondon.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "OAE Publishing, Inc. (OAE)",
+        "url": "http://oaepublish.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Oak-Fortress Journals",
+        "url": "http://oakfortressjournals.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "OASP Journals",
+        "url": "http://www.oaspjournal.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Oceanic Journals",
+        "url": "http://oceanicjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ology Science",
+        "url": "http://ologyscience.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "OMICS International",
+        "url": "http://www.omicsonline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ommega Publishers",
+        "url": "http://ommegaonline.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "OneCentral Press",
+        "url": "http://www.onecentralpress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Online Journals Management System",
+        "url": "http://onlinejournals.oscij.com/index.php/index/index",
+        "is_publisher": true
+    },
+    {
+        "name": "Online Research Journals",
+        "url": "http://onlineresearchjournals.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Online Science Publishing",
+        "url": "http://onlinesciencepublishing.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "OPAST",
+        "url": "http://www.opastonline.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Access eBooks",
+        "url": "http://openaccessebooks.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Academic Press",
+        "url": "http://www.openacademicpress.de/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Access Journal Limited",
+        "url": "http://theojal.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Access Journals",
+        "url": "http://www.openaccessjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Access Journals Publishing Company",
+        "url": "http://oaj-pc.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Access Library",
+        "url": "http://www.oalib.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Access Pub",
+        "url": "http://www.openaccesspub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Access Publishing Group",
+        "url": "http://oapub.org/edu/index.php/index",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Access Science Research Publisher\u00a0",
+        "url": "http://openaccessscience.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Access Text",
+        "url": "http://oatext.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open BioMedical Publishing Corporation",
+        "url": "http://www.obm-pc.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Journal Systems",
+        "url": "http://ambs-journal.co.uk/ojs-2.4.7-1/index.php/index",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Knowledge Journals",
+        "url": "http://okjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Research and Science Library",
+        "url": "http://www.orslib.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Research Network",
+        "url": "http://www.openresearchnetwork.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Research Society",
+        "url": "http://www.open-knowledge-society.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Science",
+        "url": "http://www.openscienceonline.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Science Publications",
+        "url": "http://www.opensciencepublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "OpenAccessPub",
+        "url": "http://www.openaccesspub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Openventio Publishsers",
+        "url": "http://openventio.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "OPR Science",
+        "url": "http://oprscience.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ORB Academic Publisher",
+        "url": "http://www.orb-academic.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Orbit Research and Development",
+        "url": "http://www.orbitjournals.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "ORIC Publications\u00a0",
+        "url": "http://www.oricpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ozean Publications",
+        "url": "http://ozelacademy.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pacesetter Online Publishers",
+        "url": "http://pacesetteronlinepublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pacific Group of e-Journals",
+        "url": "http://pacificejournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pak Publishing Group",
+        "url": "http://www.pakinsight.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pakistan Science Mission",
+        "url": "http://psmpublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Palgo Journals",
+        "url": "http://www.palgojournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Panacea Research Library",
+        "url": "http://prlpublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Paper Publications",
+        "url": "http://www.paperpublications.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "PaperSciences Research Publisher",
+        "url": "http://www.papersciences.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Paramount Journals",
+        "url": "http://www.paramountjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "PBS Journals",
+        "url": "http://pbsjournals.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Peak Journals",
+        "url": "http://www.peakjournals.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Pearl Publication",
+        "url": "http://www.pearlpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pearl Research Journals",
+        "url": "http://www.pearlresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Peertechz",
+        "url": "http://www.peertechz.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pelagia Research Library",
+        "url": "http://pelagiaresearchlibrary.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Pencil Academic Press",
+        "url": "http://www.pencilacademicpress.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pezzottaite Journals",
+        "url": "http://pezzottaitejournals.net/pezzottaite/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pharma Intelligence",
+        "url": "http://www.pharmaintelligence.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pharma Publisher",
+        "url": "http://www.pharmapublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pharma Research Library",
+        "url": "http://www.pharmaresearchlibrary.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pharmaceutical Research Foundation",
+        "url": "http://pharmresfoundation.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "PharmaInfo",
+        "url": "http://www.pharmainfo.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "PharmaInterScience Publishers",
+        "url": "http://www.pharmainterscience.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pharmascope Publications",
+        "url": "http://www.pharmascope.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Philippine Association of Institutions for Research",
+        "url": "http://philair.ph/publication/index.php/index/index",
+        "is_publisher": true
+    },
+    {
+        "name": "Photon Foundation",
+        "url": "https://sites.google.com/site/photonfoundationorganization/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pinnacle Journal Publication",
+        "url": "http://pjpub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pinnacle Research Journals",
+        "url": "http://prj.co.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pioneer Scientific Publisher",
+        "url": "http://www.pspchv.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "PiscoMed Publishing",
+        "url": "http://www.piscomed.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Planetary Scientific Research Center",
+        "url": "http://psrcentre.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Platinum Global Journals",
+        "url": "http://www.platinumglobaljournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Premier Publishers",
+        "url": "http://premierpublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "PressAcademia",
+        "url": "http://www.pressacademia.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Prime Journals",
+        "url": "http://www.primejournal.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Pristine Research Journal Publications",
+        "url": "http://www.prjp.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Priyanka Research Journal Publication",
+        "url": "http://www.prjpublication.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journal of Academic Research (Publisher)",
+        "url": "http://www.eu-print.org/ilk.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Progressive Academic Publishing",
+        "url": "http://www.idpublications.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Progressive Science Publications",
+        "url": "http://www.pscipub.com/MWP/",
+        "is_publisher": true
+    },
+    {
+        "name": "Project Innovation",
+        "url": "http://www.projectinnovation.biz/",
+        "is_publisher": true
+    },
+    {
+        "name": "ProJournals\u00a0",
+        "url": "http://www.projournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Proscience Journals",
+        "url": "http://www.proscience-journals.com/default.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Prudence Journals",
+        "url": "http://www.prudencejournals.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Prudent Journals",
+        "url": "http://prudentjournals.org/IRJCP/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pubicon International Publications",
+        "url": "http://www.pubicon.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Public Science Framework",
+        "url": "http://www.aiscience.org/psf/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Publishing House of Sciences",
+        "url": "http://phosciences.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pulsus Group",
+        "url": "http://www.pulsus.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Purple Journals",
+        "url": "http://www.purplejournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pushpa Publishing House",
+        "url": "http://www.pphmj.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Pyrex Journals",
+        "url": "http://www.pyrexjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Qingres",
+        "url": "http://www.qingres.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Quazzy Journals",
+        "url": "http://quazzyjournals.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Quest Journals",
+        "url": "http://www.questjournals.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "R&D Modern Research Publication",
+        "url": "http://rdmodernresearch.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "R & S Publications",
+        "url": "https://sites.google.com/a/randspublications.org/randspublications/home",
+        "is_publisher": true
+    },
+    {
+        "name": "RAJ Group",
+        "url": "http://www.ra-j.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Rating Academy",
+        "url": "http://ratingacademy.com.tr/web/index.php/en/",
+        "is_publisher": true
+    },
+    {
+        "name": "Readers Insight Publishers",
+        "url": "http://readersinsight.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Recent Science",
+        "url": "http://recentscience.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Red Flower Publication Private Limited",
+        "url": "http://www.rfppl.co.in/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "RedFame Publishing",
+        "url": "http://www.redfame.com/home/",
+        "is_publisher": true
+    },
+    {
+        "name": "Remedy Publications",
+        "url": "http://www.remedypublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Renu Publishers",
+        "url": "https://renupublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research & Analysis Journals",
+        "url": "http://www.rajournals.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Academy of Social Sciences",
+        "url": "http://www.rassweb.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Alert Journals",
+        "url": "http://resealert.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research & Development Organization",
+        "url": "",
+        "is_publisher": true
+    },
+    {
+        "name": "Research and Educational Society",
+        "url": "http://www.resindia.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research and Information Organization",
+        "url": "http://riojournals.com/home/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research and Knowledge Publication",
+        "url": "http://www.rekpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research and Scientific Innovation Society",
+        "url": "http://www.rsisinternational.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research & Reviews",
+        "url": "http://www.rroij.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Centre for Management and Social Studies",
+        "url": "http://rcmss.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Consultants and Publisher",
+        "url": "http://recopublisher.org/index.php/Recopublisher",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Foundation for Humanity",
+        "url": "http://rfh.org.pk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research India Publications",
+        "url": "http://www.ripublication.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Institute for Progression of Knowledge",
+        "url": "http://www.ripknet.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Institute for Science, Technology, and Society\u00a0",
+        "url": "http://journal.ristas.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Journal",
+        "url": "http://www.researchjournalz.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ResearchLEAP",
+        "url": "http://researchleap.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Open",
+        "url": "http://researchopenworld.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Publish Journals",
+        "url": "http://www.researchpublish.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Publisher",
+        "url": "http://researchpub.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Publishing Group",
+        "url": "http://rpublishing.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research, Science, and Technology Publishers",
+        "url": "http://rstpublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Script",
+        "url": "http://researchscript.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Trend",
+        "url": "http://www.researchtrend.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research WebPub",
+        "url": "http://www.researchwebpub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Researchjournali",
+        "url": "http://www.researchjournali.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Revistas Academicas",
+        "url": "http://revistas-academicas.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Revotech Press",
+        "url": "http://www.revotechpress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "RG Education Society",
+        "url": "http://www.rgsociety.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Rising Vision",
+        "url": "http://www.risingvision.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Ross Science Publishers",
+        "url": "http://rossscience.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "RS Publication",
+        "url": "http://rspublication.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Rutveg Publishing, Inc.",
+        "url": "http://www.rutveg.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "RW|ResearchWorld",
+        "url": "http://researchworld.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sacha And Diamond Academic Publishers",
+        "url": "http://www.sachajournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sageya Publishers",
+        "url": "http://www.jicep.com/?page=aboutsageya",
+        "is_publisher": true
+    },
+    {
+        "name": "Sadguru Publications",
+        "url": "http://www.sadgurupublications.com/ContactUs.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Sai Om Publications",
+        "url": "http://www.saiompublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sai Scientific Communications",
+        "url": "http://sphinxsai.com/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Sakun Publishing House",
+        "url": "http://www.ijplsjournal.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "SAMANM Group of Research Publications",
+        "url": "http://www.samanmjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sanford Inter Science Press",
+        "url": "http://sispress.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sans Publishing Group",
+        "url": "http://www.sansgroup.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sapient Press",
+        "url": "http://www.sapientpress.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Savant Journals",
+        "url": "http://savantjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "SAVAP International",
+        "url": "http://www.journals.savap.org.pk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Savvy Science Publisher",
+        "url": "http://savvysciencepublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholar Journals",
+        "url": "http://www.scholarjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholar People",
+        "url": "http://scholarpeople.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholar Publications",
+        "url": "http://www.scholarpublications.in/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholar Science Journals",
+        "url": "http://www.ssjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ScholArena",
+        "url": "http://www.scholarena.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholarlink Resource Centre Limited",
+        "url": "http://scholarlinkresearch.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholarly and Academic Research Journals",
+        "url": "http://www.sarjournals.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholarly Journals",
+        "url": "http://scholarly-journals.com/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholarly Research Journal\u2019s",
+        "url": "http://www.srjis.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholarly Research Publisher",
+        "url": "http://www.srpublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholars Academic and Scientific Publishers",
+        "url": "http://saspublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholars Scitech Research",
+        "url": "http://www.scischolars.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholars Middle East Publishers",
+        "url": "http://scholarsmepub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholars Research Library",
+        "url": "http://scholarsresearchlibrary.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ScholarsHub.net",
+        "url": "http://www.scholarshub.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholedge R&D Center",
+        "url": "http://thescholedge.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholink",
+        "url": "http://www.scholink.org/Home.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholoxy Publications",
+        "url": "http://www.scholoxy.org/open-access-journals.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Sci-Afric Publishers",
+        "url": "http://www.sci-africpublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sci-Edit Publications",
+        "url": "http://sci-edit.net/journal/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sci Forschen",
+        "url": "http://sciforschenonline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "SciDoc Publishers",
+        "url": "http://scidoc.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Sciedu Press",
+        "url": "http://sciedu.ca/web/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science & Engineering Research Support soCiety",
+        "url": "http://www.sersc.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science & Knowledge Publishing Corporation Limited",
+        "url": "http://scik.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "The Science and Information Organization",
+        "url": "http://thesai.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science and Knowledge Research Society",
+        "url": "http://www.sandkrs.com/index-2.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Academy Publisher",
+        "url": "http://www.sciacademypublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Alert",
+        "url": "http://scialert.net/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Science and Education Centre of North America",
+        "url": "http://www.todayscience.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science and Education",
+        "url": "http://www.sciepub.com/portal/Home",
+        "is_publisher": true
+    },
+    {
+        "name": "Science and Engineering Publishing Company",
+        "url": "http://www.seipub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science and Technology Central",
+        "url": "http://scitechc.com/index.php/index",
+        "is_publisher": true
+    },
+    {
+        "name": "Science and Technology Publishing",
+        "url": "http://www.scitecpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Arena Publications",
+        "url": "http://sciarena.com/MWP/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Education Foundation",
+        "url": "http://www.ejournalnet.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Explorer Publications",
+        "url": "http://explorerpub.com/en/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Fair Open Library",
+        "url": "http://www.sciencefairopenlib.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "ScienceFlora",
+        "url": "http://scienceflora.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Hu\u03b2",
+        "url": "http://scihub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Instinct Publications",
+        "url": "http://www.sciipub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Journal Publication",
+        "url": "http://www.sjpub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Park Journals",
+        "url": "http://scienceparkjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Park Research Organization and Counseling",
+        "url": "http://www.sproc.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Publications",
+        "url": "http://www.thescipub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Publications",
+        "url": "http://www.sciencepublication.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Publishers",
+        "url": "http://thesciencepublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Publishing Corporation",
+        "url": "http://www.sciencepubco.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Publishing Group",
+        "url": "http://www.sciencepublishinggroup.com/home/index.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Q Publishing Group",
+        "url": "http://www.scienceq.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Record Journals",
+        "url": "http://www.sciencerecord.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Research Association",
+        "url": "http://www.scirea.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Research Library",
+        "url": "http://www.scienceresearchlibrary.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Sights",
+        "url": "http://sciencesights.com/j/home.php?x=0",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Signpost Publishing Inc.",
+        "url": "http://www.ss-pub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Target",
+        "url": "http://www.sciencetarget.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Web Publishing",
+        "url": "http://www.sciencewebpublishing.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "ScienceDomain International",
+        "url": "http://www.sciencedomain.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scienceline Publications",
+        "url": "http://www.science-line.com/index/",
+        "is_publisher": true
+    },
+    {
+        "name": "ScienceSolve",
+        "url": "http://www.sciencesolve.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sciences & Engineering Research Publication",
+        "url": "http://www.scenrp.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ScienceScript",
+        "url": "http://www.sciencescript.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scienpress Ltd.",
+        "url": "http://www.scienpress.com/Default.asp",
+        "is_publisher": true
+    },
+    {
+        "name": "Sciencevier",
+        "url": "http://sciencevier.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scient Open Access",
+        "url": "http://scientonline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "ScienTech Publisher",
+        "url": "http://www.sci-en-tech.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientia Ricerca",
+        "url": "http://scientiaricerca.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientia Socialis",
+        "url": "http://www.scientiasocialis.lt/?q=node/5",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific & Academic Publishing",
+        "url": "http://www.sapub.org/journal/index.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Advances Publishers",
+        "url": "http://www.scientificadvances.co.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific & Academic Publishing",
+        "url": "http://www.sapub.org/journal/index.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Cooperations",
+        "url": "http://ase-scoop.org/journals.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Federation",
+        "url": "http://scientificfederation.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Future",
+        "url": "http://scientificfuturegroup.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Institute For Advanced Training and Studies",
+        "url": "http://www.siats.co.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Journals",
+        "url": "http://www.scientific-journals.co.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Journals International",
+        "url": "http://www.scientificjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Literature",
+        "url": "http://www.scientificliterature.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Online Publishing",
+        "url": "http://www.scipublish.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Open Access Journals",
+        "url": "http://www.scientificoajournals.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "The Scientific Pages",
+        "url": "http://thescientificpages.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Perspectives Publishing",
+        "url": "http://waprogramming.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Planet",
+        "url": "http://www.sciencebeingjournal.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Platform Online Journals",
+        "url": "http://sciplatform.com/journals/index.php/index/index",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Research Gate",
+        "url": "http://scigatejournals.com/publications/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Research Publishing",
+        "url": "http://www.scirp.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Times",
+        "url": "http://scientifictimes.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Viewers",
+        "url": "http://www.scientificviewers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ScientificWebJournals",
+        "url": "http://www.scientificwebjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sci Forschen",
+        "url": "http://sciforschenonline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scigmoid",
+        "url": "http://www.scigmoid.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Sciknow",
+        "url": "http://www.sciknow.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scinzer Scientific Publications",
+        "url": "http://www.scinzer.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SciPress Ltd",
+        "url": "http://www.scipress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SciRes Literature",
+        "url": "http://scireslit.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "SciRex",
+        "url": "http://scirexonline.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SCITECH",
+        "url": "http://scitecresearch.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SciTech Publishers",
+        "url": "http://www.thescitechpub.com/publishers/index.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Scitechz",
+        "url": "http://scitechz.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "SciTechnol",
+        "url": "http://scitechnol.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ScottishGroup Education and Testing Services",
+        "url": "http://scottishjournal.co.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scribes Guild",
+        "url": "http://www.scribesguildjournals.org/journals.html",
+        "is_publisher": true
+    },
+    {
+        "name": "SEAHI Publications & Academic Journals",
+        "url": "http://seahipaj.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Segment Journals",
+        "url": "http://www.segmentjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Seitejournals",
+        "url": "http://www.seitejournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Serials Publications",
+        "url": "http://www.serialsjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SETScholars",
+        "url": "http://www.setscholars.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Seventh Sense Research Group Journals",
+        "url": "http://www.internationaljournalssrg.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Shri Param Hans Education & Research Foundation Trust",
+        "url": "http://www.sphert.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sift Desk",
+        "url": "http://www.siftdesk.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Significs Online Publishing",
+        "url": "http://significsonline.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Signpost e Journals",
+        "url": "http://signpostejournals.com/ejournals/Home.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Silicon Valley Publishers",
+        "url": "http://www.svpublishers.co.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Singaporean Journals",
+        "url": "http://iaaet.org/sjsr/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "SJournals",
+        "url": "http://sjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sky Journals",
+        "url": "http://www.skyjournals.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Slovakia Academic Publishing",
+        "url": "http://www.skaponline.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SM Group (SM Online Publishers)",
+        "url": "http://smjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Smart Science & Technology",
+        "url": "http://www.smartscitech.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SmatPub",
+        "url": "http://smatpub.com/Journals.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Smile Nation \u2013 Lets Smile Together",
+        "url": "http://www.ijsscr.com/contact.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Smith & Franklin Academic Publishing Corporation",
+        "url": "http://smithandfranklin.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Society for Advancement of Sciences",
+        "url": "http://www.sasjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Society for Science and Education United Kingdom",
+        "url": "http://scholarpublishing.org/index.php/index",
+        "is_publisher": true
+    },
+    {
+        "name": "Society for Science and Nature",
+        "url": "http://scienceandnature.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Society of Business Research",
+        "url": "https://www.sbrconferences.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Society of Digital Information and Wireless Communications",
+        "url": "http://sdiwc.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Society of Education",
+        "url": "http://soeagra.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Society of Engineering Science and Technology",
+        "url": "http://www.sestindia.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sons and Daughters Publishing House",
+        "url": "http://www.e-journaldirect.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Source",
+        "url": "http://www.researchsource.org/home",
+        "is_publisher": true
+    },
+    {
+        "name": "South Asian Academic Research Journals",
+        "url": "http://www.saarj.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Southern Cross Publishing Group",
+        "url": "http://www.sciencej.com/submit.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Speak Foundation",
+        "url": "http://foundationspeak.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SPIRI The Global Research",
+        "url": "http://www.spiri.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Spring City Culture International Group Pte Ltd.",
+        "url": "http://www.springcityculture.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Spring International S&T Publishing Media Co.",
+        "url": "http://springpublishing.org/index.php/index/index",
+        "is_publisher": true
+    },
+    {
+        "name": "Spring Journals",
+        "url": "http://www.springjournals.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Springwood Publishing Corporation",
+        "url": "http://www.springwoodpublication.com.au/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sprint Journals",
+        "url": "http://www.sprintjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sri Krishna International Research & Educational Consortium",
+        "url": "http://skirec.org/index",
+        "is_publisher": true
+    },
+    {
+        "name": "SS Publications",
+        "url": "http://www.sspublications.co.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "St. Anne Mary Publication",
+        "url": "http://www.annemary.org/publication",
+        "is_publisher": true
+    },
+    {
+        "name": "Standard Global Journals",
+        "url": "http://www.standardglobaljournals.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "The Standard International Journals",
+        "url": "http://www.thesij.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Standard Research Journals",
+        "url": "http://standardresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Statperson Publishing Corporation",
+        "url": "http://statperson.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "STM Connect",
+        "url": "http://www.stmconnect.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Streem Journal",
+        "url": "http://streemjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Stringer Open",
+        "url": "http://www.stringeropen.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Suryansh Publications",
+        "url": "https://scholarlyoa.wordpress.com/wp-admin/www.suryanshpublications.inf",
+        "is_publisher": true
+    },
+    {
+        "name": "Sustainable Scientific Publisher",
+        "url": "http://www.sustsci.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "SV Publication",
+        "url": "http://www.svpublication.com/#",
+        "is_publisher": true
+    },
+    {
+        "name": "Swan Open",
+        "url": "http://www.swanopen.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Swedish Scientific Publications",
+        "url": "http://swedishscientificpublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Swift Journals",
+        "url": "http://www.swiftjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Swiss Journals",
+        "url": "http://www.swissjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Symbiosis\u00a0",
+        "url": "http://symbiosisonlinepublishing.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Synchro Publisher",
+        "url": "http://www.synchropublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Synergy Publishers",
+        "url": "http://www.synergypublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "T&S Journal PUblications",
+        "url": "http://tands-journal-publications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "TAF Publishing",
+        "url": "http://www.tafpublications.com/platform",
+        "is_publisher": true
+    },
+    {
+        "name": "Takayama Publishing Group",
+        "url": "http://journal.medsys-site.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Takshila",
+        "url": "http://takshila.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Taraksh Journals",
+        "url": "http://www.taraksh.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Techmind Research",
+        "url": "http://www.techmindresearch.com/index.php?page=index",
+        "is_publisher": true
+    },
+    {
+        "name": "Technical Journals Online",
+        "url": "http://www.technicaljournalsonline.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Technopark Publications",
+        "url": "http://technoparkpublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Techno Science Academy",
+        "url": "http://technoscienceacademy.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Terminal Journals",
+        "url": "http://www.terminaljournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Textroad Journals",
+        "url": "http://www.textroad.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Thales Academic Publisher",
+        "url": "http://www.thalespublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Thavan E ACT International Journals",
+        "url": "http://www.thavan.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Thetic Journals",
+        "url": "http://theticjour.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Thomson & Ryberg Publications",
+        "url": "http://www.trpubonline.com/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "TI Journals",
+        "url": "http://waprogramming.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Time Journals",
+        "url": "http://www.timejournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Timeline Publication Pvt. Ltd.",
+        "url": "http://timelinepublication.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "TLEP Journals",
+        "url": "http://www.tlepub.org/en/",
+        "is_publisher": true
+    },
+    {
+        "name": "Tomas Publishing",
+        "url": "http://tomaspubs.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Topclass Global Journals",
+        "url": "http://www.topclassglobaljournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Trade Science, Inc",
+        "url": "http://www.tsijournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Trans Stellar",
+        "url": "http://www.tjprc.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Transaction Series on Engineering Sciences and Technologies",
+        "url": "http://www.tsest.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Transcontinental Publishers",
+        "url": "http://icjpublishers.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Transnational Research Journals",
+        "url": "http://universalresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "TSPublications",
+        "url": "https://sites.google.com/a/tspublications.org/tspublications/home",
+        "is_publisher": true
+    },
+    {
+        "name": "Tulpar Academic Publishing",
+        "url": "http://www.challengejournal.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "U.S. Science Press",
+        "url": "http://usspress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "UHIVE",
+        "url": "http://www.uhedergisi.com/?sayfa=icerik&tur=icerik&kategori=diger-dergilerimiz&icerik=diger-dergilerimiz",
+        "is_publisher": true
+    },
+    {
+        "name": "Ulster Press",
+        "url": "http://ulster-press.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Unified Journals",
+        "url": "http://unifiedjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Unique Journals Communication",
+        "url": "http://www.ujconline.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Unique Research Journals",
+        "url": "http://www.uniqueresearchjournals.com/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "United Scholars Publications",
+        "url": "http://www.unitedscholars.net/home.html",
+        "is_publisher": true
+    },
+    {
+        "name": "United Scientific Group",
+        "url": "http://unitedscientificgroup.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Universal Association of Computer and Electronics Engineers",
+        "url": "http://uacee.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Universal Association of Mechanical and Aeronautical Engineers",
+        "url": "http://uamae.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Universal Publishing & Research Organization",
+        "url": "http://www.upro.org.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Universal Research Group",
+        "url": "http://universalrg.org/index.aspx",
+        "is_publisher": true
+    },
+    {
+        "name": "Universal Research Publications",
+        "url": "http://urpjournals.com/contactus.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Universe Scientific Publishing",
+        "url": "http://www.usp-pl.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "UniversityPublications.net",
+        "url": "http://www.universitypublications.net/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Universum Scientific Journals",
+        "url": "http://7universum.com/en/",
+        "is_publisher": true
+    },
+    {
+        "name": "Uptodate Research Publication",
+        "url": "http://www.uptodateresearchpublication.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "URO Journals",
+        "url": "http://www.urojournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "USN Scientific Journal",
+        "url": "http://usnsj.com/index.php/index/index",
+        "is_publisher": true
+    },
+    {
+        "name": "Valley International Journals",
+        "url": "http://valleyinternational.net/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "VBRI Press",
+        "url": "http://www.vbripress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Verizona Publisher",
+        "url": "http://verizonaonlinepublishing.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Vernon Innovative Publishers",
+        "url": "http://www.vipoa.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "VIBGYOR Online Publishers",
+        "url": "http://vibgyorpublishers.org/main/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Victorquest Publications",
+        "url": "http://victorquestpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Vidya Publications",
+        "url": "http://vidyapublications.com/home.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Virtual Foundation for Advancement of Science and Technology",
+        "url": "http://www.vfast.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "VNMPublication",
+        "url": "http://www.vnmpublication.com/Journal.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Vow Scientific Quest",
+        "url": "http://vowscientificquest.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "VRJ Publishers",
+        "url": "http://www.vrjpublishers.com/index.php/index/index",
+        "is_publisher": true
+    },
+    {
+        "name": "VSRD International Journals",
+        "url": "http://www.vsrdjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Watch Plus",
+        "url": "http://www.watchpub.org/index.htm",
+        "is_publisher": true
+    },
+    {
+        "name": "Webcrawler Journals",
+        "url": "http://webcrawlerjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "We-Together to Save Yourself Society",
+        "url": "http://www.sospublication.co.in/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Wesley & Eber Publishing",
+        "url": "http://weberpub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "West East Institute",
+        "url": "http://www.westeastinstitute.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "WFL Publisher",
+        "url": "http://world-food.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Whites Science",
+        "url": "http://whitesscience.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Whioce Publishing Pte. Ltd.",
+        "url": "http://www.whioce.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Wilolud Journals",
+        "url": "http://www.wiloludjournal.com/page.php?3",
+        "is_publisher": true
+    },
+    {
+        "name": "Wireilla Scientific Publications",
+        "url": "http://wireilla.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "WIT Press",
+        "url": "http://www.witpress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "WOAR Journals",
+        "url": "https://www.woarjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Academic Journal of Business & Applied Science",
+        "url": "http://wajbas.webs.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Academic Publishing",
+        "url": "http://www.academicpub.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Academic Research Journals",
+        "url": "http://www.worldacademicresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Academic Union",
+        "url": "http://www.worldacademicunion.com/default.html",
+        "is_publisher": true
+    },
+    {
+        "name": "World Academy of Research and Publication",
+        "url": "http://www.warponline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Academy of Research in Science and Engineering",
+        "url": "http://warse.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Academy of Science and Technology",
+        "url": "http://www.wastinc.us/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Academy of Science, Engineering and Technology",
+        "url": "http://www.waset.org/publications.php",
+        "is_publisher": true
+    },
+    {
+        "name": "World Business Institute",
+        "url": "http://www.wbiworld.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Journal of Publisher",
+        "url": "http://www.wjp.co.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Journals of Academic Advances",
+        "url": "http://www.wjoaa.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Open Access Journals",
+        "url": "http://www.woaj.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Research Journals",
+        "url": "http://worldresearchjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Research Library",
+        "url": "http://worldresearchlibrary.org/journal.php",
+        "is_publisher": true
+    },
+    {
+        "name": "World Research Publications",
+        "url": "http://www.wrpjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Scholars",
+        "url": "http://wscholars.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Science and Research Publishing",
+        "url": "http://www.wsrpublishing.com/index.php/wsrp",
+        "is_publisher": true
+    },
+    {
+        "name": "World Science Publisher",
+        "url": "http://www.worldsciencepublisher.org/index.php",
+        "is_publisher": true
+    },
+    {
+        "name": "World Science Research Journals",
+        "url": "http://www.wsrjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Scientific and Engineering Academy and Society",
+        "url": "http://www.wseas.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Standard Organization",
+        "url": "http://standard.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "World Wide Journals",
+        "url": "http://www.worldwidejournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Wudpecker Research Journals",
+        "url": "http://www.wudpeckerresearchjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Wyno Academic Journals",
+        "url": "http://www.wynoacademicjournals.org/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Wyvern Publishing Group",
+        "url": "http://www.wyvernpublishinggroup.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Xia & He Publishing",
+        "url": "http://www.xandhpublishing.com/Default.aspx?sid=1",
+        "is_publisher": true
+    },
+    {
+        "name": "Yellow Loop Journal",
+        "url": "http://journal.yloop.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Zant World Press",
+        "url": "http://zantworldpress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Zeal Scienza Realm of Erudition",
+        "url": "http://zealscienza.com/zealscienza/",
+        "is_publisher": true
+    },
+    {
+        "name": "ZealSci Journals",
+        "url": "http://www.zealscijournals.com/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "Zeetarz Group Publishing",
+        "url": "http://www.zeetarz.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Zenith International Research and Academic Foundation",
+        "url": "http://www.zenithresearch.org.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Zia World Press",
+        "url": "http://ziaworldpress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ZolCat Academic House",
+        "url": "http://www.zolcat.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Zt-Journals",
+        "url": "http://www.ztjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Zygoscient",
+        "url": "http://zygoscient.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Publications",
+        "url": "https://www.academicpublications.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "Academic Solutions",
+        "url": "https://acadsol.eu/",
+        "is_publisher": true
+    },
+    {
+        "name": "ACTA Press",
+        "url": "http://www.actapress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Acta Scientific",
+        "url": "https://actascientific.com/journals.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Advanced Research Society for Science and Sociology",
+        "url": "http://arsss.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "AGU Publications",
+        "url": "http://www.agupublication.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "AI Publications",
+        "url": "http://aipublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Akademia Baru Publishing",
+        "url": "http://www.akademiabaru.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "AMS Central",
+        "url": "http://www.amscentral.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ant Journals",
+        "url": "http://www.antjournals.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Arena Of Sciences",
+        "url": "http://arenaofsciences.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Asclepius Open",
+        "url": "https://asclepiusopen.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Asian Intellect",
+        "url": "http://www.asianintellect.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Auctores Publishing, LLC",
+        "url": "https://www.auctoresonline.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Bilingual Publishing Co",
+        "url": "http://www.bilpublishing.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Bio-Byword Publishing PTY LTD",
+        "url": "http://www.bbwpublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Biogeneric Publishers",
+        "url": "https://biogenericpublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "BiomedGrid, LLC",
+        "url": "https://biomedgrid.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Biomedical Research Network+, LLC",
+        "url": "http://biomedres.co/",
+        "is_publisher": true
+    },
+    {
+        "name": "Birlesik Dunya Yenilik Arastirma ve Yayincilik Merkezi",
+        "url": "https://www.un-pub.eu/ojs/",
+        "is_publisher": true
+    },
+    {
+        "name": "Boffin Access",
+        "url": "https://www.boffinaccess.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Book Publisher International",
+        "url": "https://www.bookpi.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Bosal Journals",
+        "url": "http://bosaljournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Boya Century Publishing",
+        "url": "http://www.journals.cfp.edu.pl/",
+        "is_publisher": true
+    },
+    {
+        "name": "British Bio Medicine Institute",
+        "url": "https://www.britishbiomedicine.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "BUSSECON International Publishing",
+        "url": "https://bussecon.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Cambridge Scholars Publishing",
+        "url": "http://www.cambridgescholars.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Center for Academic Research",
+        "url": "https://www.ijssb.com/index.php/car",
+        "is_publisher": true
+    },
+    {
+        "name": "Center for Contemporary Research",
+        "url": "http://www.ijbmcnet.com/index.php/ccr",
+        "is_publisher": true
+    },
+    {
+        "name": "Center for Promoting Education and Research",
+        "url": "http://cpernet.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Centre for Research on Islamic Banking & Finance and Business",
+        "url": "https://www.cribfb.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Chembio Publishers",
+        "url": "http://chembioepub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Cientific Group",
+        "url": "https://www.cientificgroup.com/journals.php",
+        "is_publisher": true
+    },
+    {
+        "name": "Cloud Journals",
+        "url": "http://www.cloud-journals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "CME Publishing Group",
+        "url": "http://www.cmepub.com/index",
+        "is_publisher": true
+    },
+    {
+        "name": "Coalesce Research Group",
+        "url": "http://coalesceresearchgroup.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Consortia Academia",
+        "url": "http://consortiacademia.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Copernicus Publishing",
+        "url": "http://copernicuspublishing.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Crimson Publishers",
+        "url": "http://crimsonpublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "East African Scholars Publisher",
+        "url": "http://www.easpublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Edupedia Publications",
+        "url": "http://edupediapublications.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Emeraldtree Publishing",
+        "url": "http://emtpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ENCYCLOPAEDIC PUBLISHING PTE.LTD",
+        "url": "http://en.encyclopub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Engineering Information Institute",
+        "url": "http://www.engii.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "EnPress Publisher",
+        "url": "http://enpress-publisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "eScientific Research",
+        "url": "http://escires.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "European Open Access Publishing",
+        "url": "https://www.europapublishing.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "FM Publishers",
+        "url": "https://fmpublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "ForteOpen Journals",
+        "url": "https://forteopen.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Fortune Journals",
+        "url": "http://www.fortunejournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Frontier Scientific Publishing",
+        "url": "http://front-sci.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Geist Science",
+        "url": "https://geistscience.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "GIAP Journals",
+        "url": "https://giapjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "GJ Publications",
+        "url": "http://www.gjpublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Press Hub",
+        "url": "https://globalpresshub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Global Vision Press",
+        "url": "https://gvpress.com/journals/",
+        "is_publisher": true
+    },
+    {
+        "name": "Globeedu Group",
+        "url": "http://www.globeedugroup.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "GPH Journal",
+        "url": "http://www.gphjournal.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Green Publication",
+        "url": "https://gnpublication.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Gupta Publications",
+        "url": "http://www.guptapublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Healthcare Bulletin",
+        "url": "http://www.healthcare-bulletin.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Hilaris Publisher",
+        "url": "https://www.hilarispublisher.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "i-manager Publications",
+        "url": "http://www.imanagerpublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "i-Proclaim",
+        "url": "https://i-proclaim.my/",
+        "is_publisher": true
+    },
+    {
+        "name": "\u200b",
+        "url": "http://www.imrpress.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Infogain Publication",
+        "url": "http://infogainpublication.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Informing Science Institute",
+        "url": "https://www.informingscience.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Innovation Info",
+        "url": "https://innovationinfo.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Innovision Health Media, Inc.",
+        "url": "http://innovisionhm.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute for Environment, Engineering, Economics",
+        "url": "http://ieee.am/",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute for Promoting Research & Policy Development",
+        "url": "https://iprpd.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Association for Research and Science",
+        "url": "https://www.iaras.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Association of Engineers",
+        "url": "http://www.iaeng.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Association of Science and Technology for Development",
+        "url": "http://www.iasted.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Business Academics Consortium",
+        "url": "http://ibac-conference.org/ibac/index.html",
+        "is_publisher": true
+    },
+    {
+        "name": "International Center for Promoting Knowledge",
+        "url": "https://icpknet.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Institute of Education, Research and Development",
+        "url": "https://www.iierd.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Institute of Social and Economic Sciences",
+        "url": "https://www.iises.net/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Journal of Modern Research and Development",
+        "url": "http://www.ijmrnd.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Peer Reviewed Journals and Books",
+        "url": "https://www.iprjb.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Publisher LLC",
+        "url": "http://publisher-europe.com/?l=us",
+        "is_publisher": true
+    },
+    {
+        "name": "International Scientific Journal",
+        "url": "http://www.scientific-journal.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Scientific Organization",
+        "url": "http://www.iscientific.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "International Technology and Science Publications Ltd",
+        "url": "http://www.itspoa.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Institute of Mathematics and Management",
+        "url": "https://imathm.edu.lk/publications",
+        "is_publisher": true
+    },
+    {
+        "name": "IPN Education Group",
+        "url": "http://www.ipneducationgroup.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "IRDP Group of Journals",
+        "url": "http://irdp.info/",
+        "is_publisher": true
+    },
+    {
+        "name": "IRIS\u00a0Publishers",
+        "url": "https://irispublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ITSR",
+        "url": "http://informtechcell.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Journals of University of Babylon",
+        "url": "https://www.journalofbabylon.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Knowledge Empowerment Foundation",
+        "url": "https://www.kemfo.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Knowledge Insights",
+        "url": "http://knowledge-insights.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Kosmos Publishers",
+        "url": "http://www.kosmospublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Lectito",
+        "url": "http://www.lectitopublishing.nl/",
+        "is_publisher": true
+    },
+    {
+        "name": "Chemistry Research Journal",
+        "url": "https://chemrj.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "LIDSEN Publishing Inc.",
+        "url": "http://www.lidsen.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Longdom Publishing",
+        "url": "https://www.longdom.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Lupine Publishers",
+        "url": "http://www.lupinepublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Mak Periodical Library",
+        "url": "https://makperiodicallibrary.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Magnus Med Club",
+        "url": "https://www.magnusmedclub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "MedCave Publications",
+        "url": "http://medcavepublications.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Medip Academy",
+        "url": "https://www.medipacademy.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Medpulse Publishing Corporation",
+        "url": "https://www.medpulse.in/",
+        "is_publisher": true
+    },
+    {
+        "name": "Medtext Publications",
+        "url": "http://www.medtextpublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Mehria International Publishers",
+        "url": "http://www.ijvets.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Modern Business Press",
+        "url": "http://www.modernbusinesspress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Molecular Biology Journals",
+        "url": "http://www.molecularbiologyjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "NADIA",
+        "url": "https://nadiapub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "National FORUM Journals",
+        "url": "http://www.nationalforum.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Natural Science Simulations and Engineering Laboratory Limited",
+        "url": "https://nssel.uk/",
+        "is_publisher": true
+    },
+    {
+        "name": "Nextgen Research Publications",
+        "url": "https://www.ijntr.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ocimum Scientific Publishers",
+        "url": "https://ocimumpublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Ology Journals",
+        "url": "http://ologyjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Onjourn",
+        "url": "https://www.onjourn.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Onomy Science",
+        "url": "http://onomyscience.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Access (OA) Publication",
+        "url": "https://oapublication.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Open Exploration",
+        "url": "https://www.explorationpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Oriental Scientific Publishing Company",
+        "url": "http://ospcindia.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Phronesis, LLC",
+        "url": "https://phronesisonline.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Prague Development Center",
+        "url": "http://www.pradec.eu/",
+        "is_publisher": true
+    },
+    {
+        "name": "Publishing Press",
+        "url": "http://publishingpress.info/",
+        "is_publisher": true
+    },
+    {
+        "name": "PubMedHouse",
+        "url": "http://www.pubmedhouse.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Raft Publications",
+        "url": "https://www.raftpubs.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ReDelve International Publications",
+        "url": "https://www.redelve.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Center of Education and Science",
+        "url": "http://rcesnet.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Infotext",
+        "url": "https://researchinfotext.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Novelty Publisher",
+        "url": "https://researchnovelty.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Pioneers",
+        "url": "http://researchpioneers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Research Route",
+        "url": "http://www.researchroute.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Rivera Publications",
+        "url": "http://riverapublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "RM Research International Pte. Ltd",
+        "url": "http://rmjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "S Open Access Open Journals Publishing",
+        "url": "https://soaoj.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SAE Publications",
+        "url": "http://saepub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholarly Pages",
+        "url": "http://scholarlypages.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scholars Academic and Scientific Society",
+        "url": "https://sassociety.com/journals/",
+        "is_publisher": true
+    },
+    {
+        "name": "SciAccess Publisher",
+        "url": "http://www.sciaccesspublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SCIAEON",
+        "url": "http://sciaeon.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "ScienceForecast Publications LLC",
+        "url": "https://scienceforecastoa.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "ScienceScholar",
+        "url": "https://sciencescholar.us/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Publishing Gate",
+        "url": "http://sciencepublishgate.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Publishing Group",
+        "url": "http://spg.ltd/",
+        "is_publisher": true
+    },
+    {
+        "name": "Science Repository",
+        "url": "https://www.sciencerepository.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientia Socialis",
+        "url": "http://www.scientiasocialis.lt/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scientific Education",
+        "url": "http://www.scientificeducation.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Scimaze Group",
+        "url": "https://scimaze.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "SciTech Central Inc.",
+        "url": "http://www.scitcentral.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SciVision Publishers",
+        "url": "http://www.scivisionpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SDIP Press",
+        "url": "https://www.sdippress.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Social Science Journals",
+        "url": "http://socialsciencejournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Sryahwa Publications",
+        "url": "http://www.sryahwapublications.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Stechnolock",
+        "url": "http://www.stechnolock.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SunKrist Publishing",
+        "url": "https://sunkristpublishing.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "SunText Reviews",
+        "url": "https://suntextreviews.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "Synotec\u00a0Publishers",
+        "url": "http://www.synotecpublishers.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Syntax Publishers",
+        "url": "https://syntaxpublishers.org/",
+        "is_publisher": true
+    },
+    {
+        "name": "The American Publishing House",
+        "url": "https://www.theamph.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Thomson.id",
+        "url": "http://thomson.id/",
+        "is_publisher": true
+    },
+    {
+        "name": "TMR Publishing Group",
+        "url": "https://www.tmrjournals.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "TSNS \u201cInteraktiv plus\u201d, LLC",
+        "url": "https://interactive-plus.ru/en",
+        "is_publisher": true
+    },
+    {
+        "name": "UK Education Consultancy Services Ltd",
+        "url": "https://uk-education.com/publications",
+        "is_publisher": true
+    },
+    {
+        "name": "United Prime Publications, Universal Access Medical Publishers",
+        "url": "https://www.untdprimepub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Universal Wiser Publisher",
+        "url": "http://www.wiserpub.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Vision Science Research Sdn Bhd",
+        "url": "http://vision-science.com/",
+        "is_publisher": true
+    },
+    {
+        "name": "Multidisciplinary Digital Publishing Institute (MDPI)",
+        "url": "http://www.mdpi.com/",
+        "is_publisher": true
+    }
+]
