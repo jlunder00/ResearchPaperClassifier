@@ -33,7 +33,7 @@ def get_num_citations(titles):
     num_citations = []
     for title in titles:
         # try:
-        num_citations.append(next(scholarly.search_pubs(title))['num_citations'])
+        num_citations.append(next(scholarly.search_pubs(title.replace('\n ', '')))['num_citations'])
         # except:
             # num_citations.append(None)
             
@@ -42,7 +42,7 @@ def get_num_citations(titles):
 
 def add_num_citations(items, num_citations):
     for i in range(len(items)):
-        items[i].update(num_citations[i])
+        items[i]['num_citations'] = num_citations[i]
     return items
 
 def save(fname, items, first, last):
