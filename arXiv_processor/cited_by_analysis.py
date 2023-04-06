@@ -5,9 +5,6 @@ import signal
 
 
 
-def handler(signum, frame):
-    raise Exception("no more")
-
 
 def get_items(fname, start,  n):
 
@@ -32,10 +29,10 @@ def get_num_citations(titles):
     print(titles)
     num_citations = []
     for title in titles:
-        # try:
-        num_citations.append(next(scholarly.search_pubs(title.replace('\n ', '')))['num_citations'])
-        # except:
-            # num_citations.append(None)
+        try:
+            num_citations.append(next(scholarly.search_pubs(title.replace('\n ', '')))['num_citations'])
+        except:
+            num_citations.append(None)
             
     return num_citations
 
@@ -49,13 +46,13 @@ def save(fname, items, first, last):
     if first:
         with open(fname, 'w') as f:
             f.write('[\n')
-            f.write(json.dumps(items)+',\n')
+            f.write(json.dumps(items, indent=4)+',\n')
     elif last:
         with open(fname, 'a') as f:
-            f.write(json.dumps(items)+'\n]')
+            f.write(json.dumps(items, indent=4)+'\n]')
     else:
         with open(fname, 'a') as f:
-            f.write(json.dumps(items)+',\n')
+            f.write(json.dumps(items, indent=4)+',\n')
 
 if __name__ == '__main__':
     pg = ProxyGenerator()
@@ -63,8 +60,8 @@ if __name__ == '__main__':
     scholarly.use_proxy(pg)
     
     start = 0
-    end = 2
-    size = 1
+    end = 0
+    size = 10
     for i in range(size, 5000, size):
         start = end
         end = end + i
@@ -72,7 +69,7 @@ if __name__ == '__main__':
         titles = get_titles(items)
         num_citations = get_num_citations(titles)
         items = add_num_citations(items, num_citations)
-        save('data/with_num_citations', items, first = start==0, last=len(items) < size)
+        save('data/with_num_citations.json', items, first = start==0, last=len(items) < size)
         
         
 
