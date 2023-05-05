@@ -29,7 +29,7 @@ class AbstractDataset(Dataset):
 
     def get_text_only_iter(self):
         for item in self.papers_info:
-            yield item['abstract'] 
+            yield self.get_text_representation(item['abstract'])
 
     def get_text_representation(self, text):
         vectorized_text = self.vocab(self.tokenizer(text))
