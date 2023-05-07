@@ -62,6 +62,10 @@ def collate_fn(batch):
     return {'titles': titles, 'abstracts': abstracts}
 
 
+if __name__ == "__main__":
+    print("shut up")
+
+
 
 
 
