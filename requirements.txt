@@ -4,4 +4,7 @@ torchaudio
 wandb
 onnx
 onnxruntime
-
+pandas
+huggingface
+matplotlib
+torchtext
