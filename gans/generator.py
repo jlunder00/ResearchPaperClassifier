@@ -10,18 +10,19 @@ import matplotlib.pyplot as plt
 
 
 class SimpleGenerator(nn.Module):
-    def __init__(self, ntokens, device):
+    def __init__(self, title_tokens, abstract_tokens, device):
 
         super().__init__()
-        self.ntokens = ntokens
+        self.abstract_tokens = abstract_tokens
+        self.title_tokens = title_tokens
         self.model = nn.Sequential(
-            nn.Linear(1, int(ntokens/4)),
+            nn.Linear(self.title_tokens, int(self.abstract_tokens/4)),
             nn.ReLU(),
-            nn.Linear(int(ntokens/4), int(ntokens/2)),
+            nn.Linear(int(self.abstract_tokens/4), int(self.abstract_tokens/2)),
             nn.ReLU(),
-            nn.Linear(int(ntokens/2), int(ntokens/2)),
+            nn.Linear(int(self.abstract_tokens/2), int(self.abstract_tokens/2)),
             nn.ReLU(),
-            nn.Linear(int(ntokens/2), int(ntokens)),
+            nn.Linear(int(self.abstract_tokens/2), int(self.abstract_tokens)),
             nn.ReLU()
         )
         self.device = device

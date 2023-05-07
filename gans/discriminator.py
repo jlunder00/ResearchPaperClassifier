@@ -10,16 +10,16 @@ import matplotlib.pyplot as plt
 
 class SimpleDiscriminator(nn.Module):
     
-    def __init__(self, ntokens, device):
+    def __init__(self, abstract_tokens, device):
         super().__init__()
-
+        self.abstract_tokens = abstract_tokens
         self.model = nn.Sequential(
-                nn.Linear(ntokens, int(ntokens/2)),
+                nn.Linear(self.abstract_tokens, int(self.abstract_tokens/2)),
                 nn.ReLU(),
-                nn.Linear(int(ntokens/2), int(ntokens/4)),
+                nn.Linear(int(self.abstract_tokens/2), int(self.abstract_tokens/4)),
                 nn.ReLU(),
-                nn.Linear(int(ntokens/4), 1),
-                nn.ReLU()
+                nn.Linear(int(self.abstract_tokens/4), 2),
+                nn.Sigmoid()
                 )
         self.device = device
         self.model.to(device)
@@ -31,12 +31,15 @@ class SimpleDiscriminator(nn.Module):
         self.progress = []
     
     def forward(self, inputs):
-        return self.model(inputs)
+        
+        confidence_values = self.model(inputs)
+        return confidence_values
 
     def train(self, inputs, targets):
-        outputs = self.forward(inputs)
         
-        loss = self.loss_function(outputs, targets)
+        self.optimizer.zero_grad()
+        confidence_values = self.forward(inputs)
+        loss = self.loss_function(confidence_values, targets)
 
         self.counter += 1
         
@@ -45,10 +48,15 @@ class SimpleDiscriminator(nn.Module):
         if self.counter % 1000 == 0:
             print("counter = ", self.counter)
 
-        self.optimizer.zero_grad()
+        
 
         loss.backward()
         self.optimizer.step()
+        
+    def inference(self, inputs):
+        confidence_values = self.forward(inputs)
+        categories_chosen = torch.unsqueeze(torch.distributions.Categorical(confidence_values).sample().float(), dim=1)
+        return confidence_values, categories_chosen
 
     def plot_progress(self):
         df = pandas.DataFrame(self.progress, columns=['loss'])

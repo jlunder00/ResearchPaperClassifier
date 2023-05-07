@@ -136,3 +136,5 @@ wandb_tutorial/*.onnx
 MNIST/
 wandb/
 *.onnx
+
+data/

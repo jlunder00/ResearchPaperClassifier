@@ -1,4 +1,5 @@
 import json
+from tqdm import tqdm
 
 
 
@@ -17,22 +18,29 @@ def get_items(fname, start, n):
         return items
 
 def save(fname, items, first, last):
-    if first:
+    if len(items) > 0:
         with open(fname, 'w') as f:
-            f.write('[\n')
-            f.write(json.dumps(items, indent=4)+',\n')
-    elif last:
-        with open(fname, 'a') as f:
-            f.write(json.dumps(items, indent=4)+'\n]')
-    else:
-        with open(fname, 'a') as f:
-            f.write(json.dumps(items, indent=4)+',\n')
+            json.dump(items, f, indent=4)
+#        if first:
+#            print('first')
+#            with open(fname, 'w') as f:
+#                f.write('[\n')
+#                f.write(json.dumps(items, indent=4)+',\n')
+#        elif last:
+#            with open(fname, 'a') as f:
+#                f.write(json.dumps(items, indent=4)+'\n]')
+#        else:
+#            with open(fname, 'a') as f:
+#                f.write(json.dumps(items, indent=4)+',\n')
+#    elif last:
+#        with open(fname, 'a') as f:
+#            f.write('\n]')
 
 if __name__ == '__main__':
     start = 0
     end = 0
-    size = 100
-    for i in range(size, 1000000, size):
+    size = 3000000
+    for i in tqdm(range(size, 3000001, size)):
         start = end
         end = end + i
         items = get_items('data/arxiv-metadata-oai-snapshot.json', start, end)
