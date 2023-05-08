@@ -7,6 +7,8 @@ import math
 
 import pandas
 import matplotlib.pyplot as plt
+from transformers import GPT2ForSequenceClassification, TrainingArguments, Trainer, GPT2Config, GPT2Tokenizer
+
 
 class SimpleDiscriminator(nn.Module):
     
@@ -61,6 +63,25 @@ class SimpleDiscriminator(nn.Module):
     def plot_progress(self):
         df = pandas.DataFrame(self.progress, columns=['loss'])
         df.plot(ylim=(0, 1.0), figsize=(16,8), alpha=0.1, marker='.', grid=True, yticks=(0, 0.25, 0.5))
+
+
+class GPT2Discriminator():
+    def __init__(self, model_path):
+        self.labels_ids = {'neg':0, 'pos':1}
+        self.n_labels = len(self.labels_ids)
+        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.model = GPT2ForSequenceClassification.from_pretrained(model_path)
+        
+    def forward(self, inputs):
+        return self.model(inputs)
+    
+    def train(self, inputs, optimizer_):
+        self.model.train()
+        self.model.zero_grad()
+        optimizer_.zero_grad()
+        outputs = self.model(**inputs)
+
+        optimizer_.step()
 
 # class TransformerDiscriminator(nn.Module):
 #    

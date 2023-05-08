@@ -138,3 +138,5 @@ wandb/
 *.onnx
 
 data/
+gpt2-finetuning/
+gpt2-finetuning_again/
