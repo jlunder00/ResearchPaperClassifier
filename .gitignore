@@ -142,3 +142,9 @@ gpt2-finetuning/
 gpt2-finetuning_again/
 gpt2-finetuning_again_best/
 gpt2-finetuning_again_better/
+
+gpt2-finetuning_again_new/
+gpt2-finetuning_again_new_better/
+gpt2_tokenizer/
+dberttokenizer/
+runs/

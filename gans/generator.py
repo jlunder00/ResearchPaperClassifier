@@ -68,18 +68,33 @@ class GPT2Generator():
         print(self.config.pad_token)
         self.tokenizer = tokenizer
         self.model = AutoModelWithLMHead.from_pretrained(path, config=self.config)    
+        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.model.to(self.device)
+        self.total_loss = 0
+        self.running_loss = 0
         
     def forward(self, inputs):
         return self.model(input_ids = inputs['input_ids'], attention_mask=inputs['attention_mask'])
     
-    def train(self, inputs, optimizer_):
+    def train(self, D, inputs, optimizer_, scheduler_):
         self.model.train()
         self.model.zero_grad()
         optimizer_.zero_grad()
         outputs = self.model(**inputs)
-        print("GPT OUTPUTS:")
-        print(outputs)
+        probs = torch.softmax(outputs[0], dim=-1).squeeze()
+        fake_abstracts_ids = torch.multinomial(probs, num_samples=1).squeeze()
+        decoded = self.tokenizer.decode(fake_abstracts_ids)
+        fake_input = D.tokenizer(decoded, padding="max_length", truncation=True, return_tensors='pt', max_length=512)
+        fake_input = {k:v.to(self.model.device) for k,v in fake_input.items()}
+        discriminator_output = D.model(input_ids=fake_input['input_ids'].detach(), attention_mask=fake_input['attention_mask'])
+        
+        labels = torch.stack([torch.tensor([0,1],dtype=torch.float).to(self.model.device) for i in range(len(fake_input['input_ids']))])
+        loss = torch.nn.functional.mse_loss(discriminator_output.logits, labels)
+        self.total_loss += loss.item()
+        self.running_loss += loss.item()
+        loss.backward()
         optimizer_.step()
+        scheduler_.step()
         self.model.eval()
     
 

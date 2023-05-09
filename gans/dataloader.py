@@ -70,6 +70,8 @@ def collate_fn_GPT2(batch):
     titles_attention_masks = [torch.tensor(item['titles_attention_masks'], dtype=torch.long)  for item in batch]
     abstracts_attention_masks = [torch.tensor(item['abstracts_attention_masks'], dtype=torch.long)  for item in batch]
     
+    
+    
     titles_ids_squeezed = torch.stack(titles_ids).squeeze(1)
     abstracts_ids_squeezed = torch.stack(abstracts_ids).squeeze(1)
     titles_attention_masks_squeezed = torch.stack(titles_attention_masks).squeeze(1)

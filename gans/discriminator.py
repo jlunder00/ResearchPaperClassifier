@@ -69,26 +69,32 @@ class GPT2Discriminator():
     def __init__(self, model_path, tokenizer):
         self.labels_ids = {'neg':0, 'pos':1}
         self.n_labels = len(self.labels_ids)
-        self.model_config = DistilBertConfig.from_pretrained(model_path, num_labels=2)
-
-        #self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        self.device = 'cpu'
-        self.model = AutoModelForSequenceClassification.from_pretrained(model_path, config=self.model_config)
+        #self.model_config = DistilBertConfig.from_pretrained(model_path, num_labels=2)
+        self.model_config = GPT2Config.from_pretrained(model_path, num_labels=2)
+        self.model_config.vocab_size = len(tokenizer)
+        self.model_config.pad_token_id = tokenizer.pad_token_id
+        self.model_config.pad_token = tokenizer.pad_token
+        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.model = AutoModelForSequenceClassification.from_pretrained(model_path, config=self.model_config, ignore_mismatched_sizes=True)
         self.model.to(self.device)
         self.tokenizer = tokenizer
+        self.total_loss = 0
+        self.running_loss = 0
         
     def forward(self, inputs):
         return self.model(inputs)
     
-    def train(self, inputs, optimizer_):
+    def train(self, inputs, optimizer_, scheduler_):
         self.model.train()
         self.model.zero_grad()
         optimizer_.zero_grad()
         outputs = self.model(**inputs)
-        print('THESE ARE THE OUTPUTS')
-        print(outputs)
-
+        #print('THESE ARE THE OUTPUTS')
+        #print(outputs)
+        self.total_loss += outputs[0].item()
+        self.running_loss += outputs[0].item()
         optimizer_.step()
+        scheduler_.step()
         self.model.eval()
 
 # class TransformerDiscriminator(nn.Module):
