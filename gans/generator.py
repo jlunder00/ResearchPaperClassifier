@@ -82,10 +82,17 @@ class GPT2Generator():
         optimizer_.zero_grad()
         outputs = self.model(**inputs)
         probs = torch.softmax(outputs[0], dim=-1).squeeze()
-        fake_abstracts_ids = torch.multinomial(probs, num_samples=1).squeeze()
-        decoded = self.tokenizer.decode(fake_abstracts_ids)
-        fake_input = D.tokenizer(decoded, padding="max_length", truncation=True, return_tensors='pt', max_length=512)
-        fake_input = {k:v.to(self.model.device) for k,v in fake_input.items()}
+        fake_abstracts_ids = [torch.multinomial(item, num_samples=1).squeeze() for item in probs]
+        decoded = [self.tokenizer.decode(item) for item in fake_abstracts_ids]
+        fake_input_list = [D.tokenizer(item, padding="max_length", truncation=True, return_tensors='pt', max_length=D.tokenizer.model_max_length) for item in decoded]
+        fake_input = {}
+        for item in fake_input_list:
+            for k, v in item.items():
+                if k not in fake_input.keys():
+                    fake_input[k] = []
+                fake_input[k].append(v)
+        fake_input = {k:torch.stack(v).squeeze() for k,v in fake_input.items()}
+        fake_input = {k:v.to(self.device) for k,v in fake_input.items()}
         discriminator_output = D.model(input_ids=fake_input['input_ids'].detach(), attention_mask=fake_input['attention_mask'])
         
         labels = torch.stack([torch.tensor([0,1],dtype=torch.float).to(self.model.device) for i in range(len(fake_input['input_ids']))])

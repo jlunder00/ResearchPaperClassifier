@@ -110,7 +110,7 @@ def train_gpt2():
     valid_dataset = load_from_disk('data/valid_tokenized_json_small_double_gpt')
     test_dataset = load_from_disk('data/test_tokenized_json_small_double_gpt')
     
-    train_loader = DataLoader(train_dataset['train'], num_workers=32, collate_fn=collate_fn_GPT2, batch_size=2)
+    train_loader = DataLoader(train_dataset['train'], num_workers=32, collate_fn=collate_fn_GPT2, batch_size=1)
     tokenizer = AutoTokenizer.from_pretrained("./gpt2_tokenizer")
     #tokenizer.add_special_tokens({"pad_token":"[PAD]"})
     tokenizer.padding_side = 'left'
