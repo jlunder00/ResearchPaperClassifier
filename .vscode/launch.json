@@ -40,5 +40,14 @@
             "cwd": "${workspaceFolder}/arXiv_processor/",
             "console": "integratedTerminal"
         },
+        {
+            "name": "Python: train_gans",
+            "type": "python",
+            "request": "launch",
+            "program": "training.py",
+            "cwd": "${workspaceFolder}/gans/",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
     ]
 }

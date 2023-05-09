@@ -4,6 +4,8 @@ import torch.nn.functional as F
 from torch.nn import TransformerEncoder, TransformerEncoderLayer
 from torch.utils.data import dataset 
 import math
+from transformers import GPT2ForSequenceClassification, TrainingArguments, Trainer, GPT2Config, GPT2Tokenizer, AutoModelForSequenceClassification, AutoTokenizer, DistilBertConfig
+
 
 import pandas
 import matplotlib.pyplot as plt
@@ -55,6 +57,31 @@ class SimpleGenerator(nn.Module):
     def plot_progress(self):
         df = pandas.DataFrame(self.progress, columns=['loss'])
         df.plot(ylim=(0, 1.0), figsize=(16,8), alpha=0.1, marker='.', grid=True, yticks=(0, 0.25, 0.5))
+        
+from transformers import AutoModelWithLMHead
+
+class GPT2Generator():
+    def __init__(self, path, tokenizer):
+        self.config = GPT2Config.from_pretrained(path)
+        self.config.pad_token_id = tokenizer.pad_token_id
+        self.config.pad_token = tokenizer.pad_token
+        print(self.config.pad_token)
+        self.tokenizer = tokenizer
+        self.model = AutoModelWithLMHead.from_pretrained(path, config=self.config)    
+        
+    def forward(self, inputs):
+        return self.model(input_ids = inputs['input_ids'], attention_mask=inputs['attention_mask'])
+    
+    def train(self, inputs, optimizer_):
+        self.model.train()
+        self.model.zero_grad()
+        optimizer_.zero_grad()
+        outputs = self.model(**inputs)
+        print("GPT OUTPUTS:")
+        print(outputs)
+        optimizer_.step()
+        self.model.eval()
+    
 
 # class TransformerGenerator(nn.Module):
 #     def __init__(self, ntoken: int, d_model: int, nhead: int, d_hid: int,

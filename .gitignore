@@ -140,3 +140,5 @@ wandb/
 data/
 gpt2-finetuning/
 gpt2-finetuning_again/
+gpt2-finetuning_again_best/
+gpt2-finetuning_again_better/

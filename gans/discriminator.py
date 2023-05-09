@@ -7,7 +7,7 @@ import math
 
 import pandas
 import matplotlib.pyplot as plt
-from transformers import GPT2ForSequenceClassification, TrainingArguments, Trainer, GPT2Config, GPT2Tokenizer
+from transformers import GPT2ForSequenceClassification, TrainingArguments, Trainer, GPT2Config, GPT2Tokenizer, AutoModelForSequenceClassification, AutoTokenizer, DistilBertConfig
 
 
 class SimpleDiscriminator(nn.Module):
@@ -66,11 +66,16 @@ class SimpleDiscriminator(nn.Module):
 
 
 class GPT2Discriminator():
-    def __init__(self, model_path):
+    def __init__(self, model_path, tokenizer):
         self.labels_ids = {'neg':0, 'pos':1}
         self.n_labels = len(self.labels_ids)
-        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        self.model = GPT2ForSequenceClassification.from_pretrained(model_path)
+        self.model_config = DistilBertConfig.from_pretrained(model_path, num_labels=2)
+
+        #self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.device = 'cpu'
+        self.model = AutoModelForSequenceClassification.from_pretrained(model_path, config=self.model_config)
+        self.model.to(self.device)
+        self.tokenizer = tokenizer
         
     def forward(self, inputs):
         return self.model(inputs)
@@ -80,8 +85,11 @@ class GPT2Discriminator():
         self.model.zero_grad()
         optimizer_.zero_grad()
         outputs = self.model(**inputs)
+        print('THESE ARE THE OUTPUTS')
+        print(outputs)
 
         optimizer_.step()
+        self.model.eval()
 
 # class TransformerDiscriminator(nn.Module):
 #    
