@@ -7,7 +7,7 @@ import json
 @st.cache_data
 def load_data():
     with open("gans/data/data_subset.json", 'r') as f:
-        data = pd.read_json(f)
+        data = pd.read_json(f.read())
         return st.dataframe(data)
 
 
