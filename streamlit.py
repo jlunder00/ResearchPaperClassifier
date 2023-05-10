@@ -7,12 +7,8 @@ import json
 @st.cache_data
 def load_data():
     with open("gans/data/with_titles_and_abstract.json", 'r') as f:
-        data = json.load(f)
-        df = pd.DataFrame(data)
-        columns_to_drop = [col for col in df.columns if col not in ['title', 'abstract']]
-        df = df.drop(columns=columns_to_drop, axis=1)
-        df = df.sample(frac=0.01)
-        return st.dataframe(df)
+        data = pd.read_json(f)
+        return st.dataframe(data)
 
 
 st.title("Research Paper Classification")
