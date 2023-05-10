@@ -4,6 +4,7 @@ import torch.nn.functional as F
 from torch.nn import TransformerEncoder, TransformerEncoderLayer
 from torch.utils.data import dataset 
 import math
+import gc
 
 import pandas
 import matplotlib.pyplot as plt
@@ -84,18 +85,15 @@ class GPT2Discriminator():
     def forward(self, inputs):
         return self.model(inputs)
     
-    def train(self, inputs, optimizer_, scheduler_):
-        self.model.train()
-        self.model.zero_grad()
-        optimizer_.zero_grad()
+    def train(self, inputs):
+        
         outputs = self.model(**inputs)
         #print('THESE ARE THE OUTPUTS')
         #print(outputs)
         self.total_loss += outputs[0].item()
         self.running_loss += outputs[0].item()
-        optimizer_.step()
-        scheduler_.step()
-        self.model.eval()
+        return outputs[0]
+        
 
 # class TransformerDiscriminator(nn.Module):
 #    

@@ -5,7 +5,7 @@ from torch.nn import TransformerEncoder, TransformerEncoderLayer
 from torch.utils.data import dataset 
 import math
 from transformers import GPT2ForSequenceClassification, TrainingArguments, Trainer, GPT2Config, GPT2Tokenizer, AutoModelForSequenceClassification, AutoTokenizer, DistilBertConfig
-
+import gc
 
 import pandas
 import matplotlib.pyplot as plt
@@ -77,14 +77,29 @@ class GPT2Generator():
         return self.model(input_ids = inputs['input_ids'], attention_mask=inputs['attention_mask'])
     
     def train(self, D, inputs, optimizer_, scheduler_):
-        self.model.train()
-        self.model.zero_grad()
-        optimizer_.zero_grad()
         outputs = self.model(**inputs)
         probs = torch.softmax(outputs[0], dim=-1).squeeze()
-        fake_abstracts_ids = [torch.multinomial(item, num_samples=1).squeeze() for item in probs]
-        decoded = [self.tokenizer.decode(item) for item in fake_abstracts_ids]
-        fake_input_list = [D.tokenizer(item, padding="max_length", truncation=True, return_tensors='pt', max_length=D.tokenizer.model_max_length) for item in decoded]
+        #fake_abstracts_ids = [torch.multinomial(item, num_samples=1).squeeze() for item in probs]
+        #decoded = [self.tokenizer.decode(item) for item in fake_abstracts_ids]
+        #fake_input_list = [D.tokenizer(item, padding="max_length", truncation=True, return_tensors='pt', max_length=512) for item in decoded]
+        #fake_input = {}
+        #for item in fake_input_list:
+        #    for k, v in item.items():
+        #        if k not in fake_input.keys():
+        #            fake_input[k] = []
+        #        fake_input[k].append(v)
+        #fake_input = {k:torch.stack(v).squeeze() for k,v in fake_input.items()}
+        
+        #for item in fake_input_list:
+        #    del item
+        #for item in fake_abstracts_ids:
+        #    del item
+        #for item in decoded:
+        #    del item
+        
+        fake_abstracts_ids = torch.stack([torch.multinomial(probs[i], num_samples=1).squeeze() for i in range(len(probs))])
+        decoded = [self.tokenizer.decode(ids) for ids in fake_abstracts_ids]
+        fake_input_list = [D.tokenizer(item, padding="max_length", truncation=True, return_tensors='pt', max_length=512) for item in decoded]
         fake_input = {}
         for item in fake_input_list:
             for k, v in item.items():
@@ -92,17 +107,23 @@ class GPT2Generator():
                     fake_input[k] = []
                 fake_input[k].append(v)
         fake_input = {k:torch.stack(v).squeeze() for k,v in fake_input.items()}
-        fake_input = {k:v.to(self.device) for k,v in fake_input.items()}
+            
+        #fake_abstracts = []
+        #for i in range(len(probs)):
+        #    fake_abstract_ids = torch.multinomial(probs[i], num_samples=1).squeeze()
+        #    fake_abstract = self.tokenizer.decode(fake_abstract_ids)
+        #    fake_input = D.tokenizer(fake_abstract, padding="max_length", truncation=True, return_tensors='pt', max_length=D.tokenizer.model_max_length)
+        #    fake_abstracts.append(fake_input)
+        #fake_input = {k:torch.stack([item[k] for item in fake_abstracts]).squeeze() for k in fake_abstracts[0].keys()}
+        #fake_input = {k:v.to(self.device) for k,v in fake_input.items()}
+        
         discriminator_output = D.model(input_ids=fake_input['input_ids'].detach(), attention_mask=fake_input['attention_mask'])
         
         labels = torch.stack([torch.tensor([0,1],dtype=torch.float).to(self.model.device) for i in range(len(fake_input['input_ids']))])
-        loss = torch.nn.functional.mse_loss(discriminator_output.logits, labels)
+        loss = torch.nn.functional.mse_loss(discriminator_output.logits.to(self.model.device), labels)
         self.total_loss += loss.item()
         self.running_loss += loss.item()
-        loss.backward()
-        optimizer_.step()
-        scheduler_.step()
-        self.model.eval()
+        return loss
     
 
 # class TransformerGenerator(nn.Module):

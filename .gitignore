@@ -148,3 +148,5 @@ gpt2-finetuning_again_new_better/
 gpt2_tokenizer/
 dberttokenizer/
 runs/
+generator_checkpoints/
+discriminator_checkpoints/

@@ -43,13 +43,23 @@ def train_one_epoch_gpt2(loader, D, G, D_optimizer_, D_scheduler_, G_optimizer_,
         #fake_labels = {'labels':torch.tensor([0 for i in range(len(titles))], dtype=torch.long).to(device_)}
         real_input.update(real_labels)
         
+        G.model.eval()
+        D.model.to("cuda")
+        G.model.to("cpu")
+        D.model.zero_grad()
+        D_optimizer_.zero_grad()
+        torch.cuda.empty_cache()
+        D.model.train()
+        D.model.zero_grad()
+        D_optimizer_.zero_grad()
         #print(D.model.config)
-        D.train(real_input, D_optimizer_, D_scheduler_)
-        generator_output = G.model(input_ids = generators_input['input_ids'].detach(), attention_mask=generators_input['attention_mask'].detach())
-        generator_probs = torch.softmax(generator_output[0], dim=-1).squeeze()
-        fake_abstracts_ids = [torch.multinomial(generator_probs[i], num_samples=1).squeeze() for i in range(len(generator_probs))]
+        d_loss = D.train(real_input)
+        generator_output = G.model(input_ids = generators_input['input_ids'].to("cpu").detach(), attention_mask=generators_input['attention_mask'].to("cpu").detach())
+        
+        generator_probs = torch.softmax(generator_output[0], dim=-1).squeeze().to("cpu")
+        fake_abstracts_ids = torch.stack([torch.multinomial(generator_probs[i], num_samples=1).squeeze() for i in range(len(generator_probs))])
         decoded = [G.tokenizer.decode(ids) for ids in fake_abstracts_ids]
-        fake_input_list = [D.tokenizer(item, padding="max_length", truncation=True, return_tensors='pt', max_length=D.tokenizer.model_max_length) for item in decoded]
+        fake_input_list = [D.tokenizer(item, padding="max_length", truncation=True, return_tensors='pt', max_length=512) for item in decoded]
         fake_input = {}
         for item in fake_input_list:
             for k, v in item.items():
@@ -57,19 +67,42 @@ def train_one_epoch_gpt2(loader, D, G, D_optimizer_, D_scheduler_, G_optimizer_,
                     fake_input[k] = []
                 fake_input[k].append(v)
         fake_input = {k:torch.stack(v).squeeze() for k,v in fake_input.items()}
-        #fake_abstracts = [G.model.generate(generators_input['input_ids'].detach()).squeeze() for i in range(len(generators_input['input_ids']))]
-        #print('FAKE ABSTRACTS', fake_abstracts)
-        #fake_abstracts_tokenized = [D.tokenizer(G.tokenizer.decode(fake_abstracts[i]), padding="max_length", truncation=True, return_tensors='pt', max_length=512) for i in range(len(fake_abstracts))]
-        #fake_abstracts_input_ids_stacked = torch.stack([fake_abstracts_tokenized[i]['input_ids'] for i in range(len(fake_abstracts_tokenized))],dim=1).squeeze()
-        #fake_abstracts_attention_mask_stacked = torch.stack([fake_abstracts_tokenized[i]['attention_mask'] for i in range(len(fake_abstracts_tokenized))],dim=1).squeeze()
+        #fake_abstracts = []
+        #for i in range(len(generator_probs)):
+        #    fake_abstract_ids = torch.multinomial(generator_probs[i], num_samples=1).squeeze().to("cpu")
+        #    fake_abstract = G.tokenizer.decode(fake_abstract_ids)
+        #    fake_input = D.tokenizer(fake_abstract, padding="max_length", truncation=True, return_tensors='pt', max_length=512).to("cpu")
+        #    fake_abstracts.append(fake_input)
+        #fake_input = {k:torch.stack([item[k] for item in fake_abstracts]).squeeze() for k in fake_abstracts[0].keys()}
 
-        #fake_input = {'input_ids':fake_abstracts_input_ids_stacked, 'attention_mask':fake_abstracts_attention_mask_stacked}
+        
+        
         fake_input.update(fake_labels)
         fake_input = {k:v.to(device_) for k,v in fake_input.items()}
         
-        D.train(fake_input, D_optimizer_, D_scheduler_)
+
+        d_loss += D.train(fake_input)
+        d_loss.backward()
+        D_optimizer_.step()
+        D_scheduler_.step()
+        D.model.zero_grad()
+        D_optimizer_.zero_grad()
+        torch.cuda.empty_cache()
+        D.model.eval()
+        D.model.to('cpu')
+        G.model.to(device_)
+        G.model.train()
         
-        G.train(D, generators_input, G_optimizer_, G_scheduler_)
+        G_optimizer_.zero_grad()
+        G.model.zero_grad()
+        generators_input = {k:v.to(device_) for k,v in generators_input.items()}
+        g_loss = G.train(D, generators_input, G_optimizer_, G_scheduler_)
+        g_loss.backward()
+        G_optimizer_.step()
+        G_scheduler_.step()
+        G.model.eval()
+        G_optimizer_.zero_grad()
+        G.model.zero_grad()
         
         
         print("Generator Loss: "+str(G.running_loss/(i+1)))
@@ -110,7 +143,7 @@ def train_gpt2():
     valid_dataset = load_from_disk('data/valid_tokenized_json_small_double_gpt')
     test_dataset = load_from_disk('data/test_tokenized_json_small_double_gpt')
     
-    train_loader = DataLoader(train_dataset['train'], num_workers=0, collate_fn=collate_fn_GPT2, batch_size=1)
+    train_loader = DataLoader(train_dataset['train'], num_workers=0, collate_fn=collate_fn_GPT2, batch_size=batch_size)
     tokenizer = AutoTokenizer.from_pretrained("./gpt2_tokenizer")
     #tokenizer.add_special_tokens({"pad_token":"[PAD]"})
     tokenizer.padding_side = 'left'
@@ -130,7 +163,7 @@ def train_gpt2():
                   eps = 1e-8 # default is 1e-8.
                   )
     
-    G_optimizer_ = AdamW(D.model.parameters(),
+    G_optimizer_ = AdamW(G.model.parameters(),
                   lr = 2e-5, # default is 5e-5, our notebook had 2e-5
                   eps = 1e-8 # default is 1e-8.
                   )
@@ -177,7 +210,7 @@ if __name__ == '__main__':
     #from training import train_wandb_GPT2, train_gpt2
     config = dict(
         epochs = 50,
-        batch_size = 4,
+        batch_size = 2,
         learning_rate = 0.00001,
         architecture="NN",
         abstract_tokens = 300,
