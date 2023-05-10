@@ -6,7 +6,7 @@ import json
 
 @st.cache_data
 def load_data():
-    with open("gans/data/with_titles_and_abstract.json", 'r') as f:
+    with open("gans/data/data_subset.json", 'r') as f:
         data = pd.read_json(f)
         return st.dataframe(data)
 
@@ -14,7 +14,7 @@ def load_data():
 st.title("Research Paper Classification")
 
 st.header("The Data")
-#data = load_data()
+data = load_data()
 
 
 st.header("Discriminator Model")
