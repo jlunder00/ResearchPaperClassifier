@@ -2,7 +2,16 @@ from transformers import AutoTokenizer
 from transformers import TextDataset, DataCollatorForLanguageModeling
 from transformers import Trainer, TrainingArguments, AutoModelWithLMHead
 from datasets import load_dataset, load_from_disk
+from evaluate import load
+import numpy as np
 
+accuracy_metric = load("accuracy")
+
+def compute_metrics(eval_pred):
+    predictions, labels = eval_pred
+    predictions = np.argmax(predictions, axis=1)
+    # metrics from the datasets library have a `compute` method
+    return accuracy_metric.compute(predictions=predictions, references=labels)
 
 
 def main():
@@ -35,12 +44,12 @@ def main():
         )
     
 
-    model = AutoModelWithLMHead.from_pretrained("gpt2")
+    model = AutoModelWithLMHead.from_pretrained("./gpt2-finetuning_again_new_best/checkpoint-1000")
 
 
 
     training_args = TrainingArguments(
-        output_dir="./gpt2-finetuning_again_new_better", #The output directory
+        output_dir="./gpt2-finetuning_again_new_best_again", #The output directory
         overwrite_output_dir=True, #overwrite the content of the output directory
         num_train_epochs=3, # number of training epochs
         per_device_train_batch_size=4, # batch size for training
@@ -48,6 +57,11 @@ def main():
         eval_steps = 200, # Number of update steps between two evaluations.
         save_steps= 500, # after # steps model is saved
         warmup_steps=500,# number of warmup steps for learning rate scheduler
+        report_to='wandb',
+        evaluation_strategy='steps',
+        logging_steps=10,
+        metric_for_best_model='accuracy',
+        run_name='gpt2-finetuning'
         )
 
     trainer = Trainer(
@@ -56,6 +70,7 @@ def main():
         data_collator=data_collator,
         train_dataset=train_dataset_json,
         eval_dataset=valid_dataset_json,
+        compute_metrics=compute_metrics
     )
     trainer.train()
 

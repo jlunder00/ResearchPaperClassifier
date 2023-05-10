@@ -9,3 +9,7 @@ huggingface
 matplotlib
 torchtext
 scikit-learn
+datasets
+transformers
+tensorboard
+evaluate

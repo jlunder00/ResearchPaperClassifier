@@ -8,6 +8,7 @@ from datasets import load_dataset, load_from_disk
 from transformers import get_linear_schedule_with_warmup, AdamW, AutoTokenizer
 from torch.utils.tensorboard import SummaryWriter
 from datetime import datetime
+from tqdm import tqdm
 
 
 
@@ -28,7 +29,9 @@ def train_one_epoch(loader, D, G):
 def train_one_epoch_gpt2(loader, D, G, D_optimizer_, D_scheduler_, G_optimizer_, G_scheduler_, device_, writer):
     D.model.to(device_)
     G.model.to(device_)
-    for i, data in enumerate(loader):
+    last_d_loss = 1
+    last_g_loss = 1
+    for i, data in enumerate(tqdm(loader)):
         data = {k:v.to(device_) if k not in ['titles', 'abstracts'] else v for k,v in data.items()}
         titles = data['titles']
         abstracts = data['abstracts']
@@ -49,7 +52,12 @@ def train_one_epoch_gpt2(loader, D, G, D_optimizer_, D_scheduler_, G_optimizer_,
         D.model.zero_grad()
         D_optimizer_.zero_grad()
         torch.cuda.empty_cache()
-        D.model.train()
+        
+        if last_d_loss != 0 and last_g_loss != 0 and last_g_loss/last_d_loss <= 1:
+            D.model.train()
+        else:
+            D.model.eval()
+        
         D.model.zero_grad()
         D_optimizer_.zero_grad()
         #print(D.model.config)
@@ -82,29 +90,38 @@ def train_one_epoch_gpt2(loader, D, G, D_optimizer_, D_scheduler_, G_optimizer_,
         
 
         d_loss += D.train(fake_input)
-        d_loss.backward()
-        D_optimizer_.step()
-        D_scheduler_.step()
+        if last_d_loss != 0 and last_g_loss != 0 and last_g_loss/last_d_loss <= 1:
+            d_loss.backward()
+            D_optimizer_.step()
+            D_scheduler_.step()
+        
+        
         D.model.zero_grad()
         D_optimizer_.zero_grad()
         torch.cuda.empty_cache()
         D.model.eval()
         D.model.to('cpu')
         G.model.to(device_)
-        G.model.train()
+        if last_d_loss != 0 and last_g_loss != 0 and last_d_loss/last_g_loss <= 1:
+            G.model.train()
+        else:
+            G.model.eval()
         
         G_optimizer_.zero_grad()
         G.model.zero_grad()
         generators_input = {k:v.to(device_) for k,v in generators_input.items()}
         g_loss = G.train(D, generators_input, G_optimizer_, G_scheduler_)
-        g_loss.backward()
-        G_optimizer_.step()
-        G_scheduler_.step()
+        if last_d_loss != 0 and last_g_loss != 0 and last_d_loss/last_g_loss <= 1:
+            g_loss.backward()
+            G_optimizer_.step()
+            G_scheduler_.step()
         G.model.eval()
         G_optimizer_.zero_grad()
         G.model.zero_grad()
         
-        
+        if i % 100 == 0:
+            G.model.save_pretrained('generator_checkpoints/')
+            D.model.save_pretrained('discriminator_checkpoints/')
         print("Generator Loss: "+str(G.running_loss/(i+1)))
         print("Discriminator Loss: "+str(D.running_loss/(i+1)))
         wandb.log({"gen_train_loss":G.running_loss/(i+1), "disc_train_loss":D.running_loss/(i+1)})
@@ -114,6 +131,9 @@ def train_one_epoch_gpt2(loader, D, G, D_optimizer_, D_scheduler_, G_optimizer_,
                             },
                             i)
         writer.flush()
+        
+        last_g_loss = g_loss.item()
+        last_d_loss = d_loss.item()
     D.running_loss = 0
     G.running_loss = 0
         
@@ -156,7 +176,7 @@ def train_gpt2():
     #tokenizer.add_special_tokens({"pad_token":"[PAD]"})
     tokenizer.padding_side = "left"
     tokenizer.truncation_side = "left"
-    G = GPT2Generator('gpt2-finetuning_again_new_better/checkpoint-2000', tokenizer=tokenizer)
+    G = GPT2Generator('gpt2', tokenizer=tokenizer)
     
     D_optimizer_ = AdamW(D.model.parameters(),
                   lr = 5e-4, # default is 5e-5, our notebook had 2e-5
@@ -210,7 +230,7 @@ if __name__ == '__main__':
     #from training import train_wandb_GPT2, train_gpt2
     config = dict(
         epochs = 50,
-        batch_size = 2,
+        batch_size = 3,
         learning_rate = 0.00001,
         architecture="NN",
         abstract_tokens = 300,

@@ -145,8 +145,13 @@ gpt2-finetuning_again_better/
 
 gpt2-finetuning_again_new/
 gpt2-finetuning_again_new_better/
+gpt2-finetuning_again_new_best/
 gpt2_tokenizer/
 dberttokenizer/
 runs/
 generator_checkpoints/
 discriminator_checkpoints/
+
+archive(1).zip
+arxiv-metadata-oai-snapshot.json
+download?datasetVersionNumber=123
