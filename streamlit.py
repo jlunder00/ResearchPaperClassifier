@@ -19,4 +19,4 @@ st.header("Discriminator Model")
 
 message = st.text_area("Input a made up or real abstract for a research paper", height=100)
 prediction = requests.post("http://73.254.3.61:5002/predict", data=message)
-st.title('Real!' if prediction.json()['prediction'] == 1 else 'Not Real!')
+st.title('Real!' if prediction.json()['prediction'] == 0 else 'Not Real!')
