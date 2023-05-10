@@ -16,6 +16,6 @@ def load_data():
 
 
 st.title("Research Paper Classification")
-
+st.heading("The Data")
 data = load_data()
 
