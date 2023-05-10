@@ -1,0 +1,35 @@
+service: "service:svc"
+description:
+# An API for interacting with the discriminator model
+
+
+include:
+  - "service.py"
+  - "bentofile.yaml"
+
+
+labels:
+  owner: Jason Lunder
+  stage: development
+  author: Jason Lunder
+
+python:
+  packages:
+    - "bentoml"
+    - "torch"
+    - "onnx"
+    - "onnxruntime"
+    - "pandas"
+    - "huggingface"
+    - "matplotlib"
+    - "torchtext"
+    - "scikit-learn"
+    - "datasets"
+    - "transformers"
+    - "tensorboard"
+    - "evaluate"
+
+docker:
+  distro: debian
+  python_version: "3.8.10"
+  cuda_version: "11.6.2"
