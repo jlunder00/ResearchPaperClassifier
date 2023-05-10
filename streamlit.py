@@ -6,9 +6,8 @@ import json
 
 @st.cache_data
 def load_data():
-    with open("gans/data/data_subset.json", 'r') as f:
-        data = pd.DataFrame.read_json(f.read())
-        return st.dataframe(data)
+    data = pd.read_json("gans/data/data_subset.json")
+    return st.dataframe(data)
 
 
 st.title("Research Paper Classification")
