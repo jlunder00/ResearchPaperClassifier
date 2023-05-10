@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 import json
 
-@st.cache_data
 def load_data():
     data = pd.read_json("gans/data/data_subset.json")
     return st.dataframe(data)
