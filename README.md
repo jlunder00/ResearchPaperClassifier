@@ -12,3 +12,11 @@ A classification algorithm for identifying properties about a scientific paper f
 NOTE: If you don't have a decent GPU with cuda installed, it will use CPU to train, and that will be very, very slow.    
 Run `nvidia-smi` to check 
 
+# How to use
+go to http://73.254.3.61:5003/ to use the classifier by providing an abstract, receiving a prediction on whether it is fake or real
+
+## How it works
+The discriminator is trained using a Generative Adversarial Network architecture using a finetuned pretrained GPT2 as the Generator and an non finetuned pretrained GPT2 as the discriminator.    
+
+It does not work very well at the moment. More computational power and training time is needed
+

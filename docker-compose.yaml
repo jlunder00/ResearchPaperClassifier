@@ -1,0 +1,18 @@
+version: "3"
+services:
+        papers_classifier:
+                image: papers_classifier:1.0.0
+                volumes:
+                        - /home/jlunder/papers/ResearchPaperClassifier/discriminator/:/home/bentoml/bento/src/discriminator/
+                network_mode: "host"
+                user: root
+                command: serve --port 5002 --verbose
+                environment:
+                        - BENTOML_CONFIG=/home/bentoml/bento/src/config/bentoml_configuration.yaml
+                deploy:
+                        resources:
+                                reservations:
+                                  devices:
+                                  - driver: nvidia
+                                    count: all
+                                    capabilities: [gpu]

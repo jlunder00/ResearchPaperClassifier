@@ -176,7 +176,7 @@ def train_gpt2():
     #tokenizer.add_special_tokens({"pad_token":"[PAD]"})
     tokenizer.padding_side = "left"
     tokenizer.truncation_side = "left"
-    G = GPT2Generator('gpt2', tokenizer=tokenizer)
+    G = GPT2Generator('./gpt2-finetuning_again_new_best/checkpoint-1000/', tokenizer=tokenizer)
     
     D_optimizer_ = AdamW(D.model.parameters(),
                   lr = 5e-4, # default is 5e-5, our notebook had 2e-5

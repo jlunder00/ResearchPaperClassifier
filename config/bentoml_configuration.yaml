@@ -1,0 +1,10 @@
+api_server:
+    http:
+        port: 5002
+        cors:
+            enabled: True
+            access_control_allow_origin: "*"
+            access_control_allow_methods: ["*"]
+            access_control_allow_headers: ["*"]
+            access_control_allow_origin_regex: ".*"
+            access_control_expose_headers: "*"
