@@ -1,5 +1,5 @@
 # ResearchPaperClassifier
-A classification algorithm for identifying properties about a scientific paper from its text, particularly whether it was published via predatory/non reputable publisher
+A classification algorithm for identifying properties about a scientific paper from its text, particularly whether it is AI generated or not
 
 
 # Prework for tutorial:
